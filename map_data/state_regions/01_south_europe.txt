@@ -1,4 +1,4 @@
-﻿STATE_AZORES = {
+STATE_AZORES = {
     id = 1011
     subsistence_building = "building_subsistence_farm"
     provinces = { "x769456" "x90A080" "x9B6D87" }
@@ -43,7 +43,7 @@ STATE_NEW_CASTILE = {
     farm = "xB0A000"
     mine = "x8010A0"
     wood = "xB0A080"
-    arable_land = 7
+    arable_land = 70
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_sugar_plantation" "building_vineyard" }
     capped_resources = {
         building_logging_camp = 12
@@ -474,7 +474,7 @@ STATE_SICILY = {
     arable_land = 150
     arable_resources = { building_vineyard building_wheat_farm building_livestock_ranch building_cotton_plantation building_silk_plantation building_sugar_plantation }
     capped_resources = {
-        building_sulfur_mine = 150
+        building_sulfur_mine = 100
         building_logging_camp = 20
         building_fishing_wharf = 10
     }
