@@ -1,4 +1,4 @@
-﻿STATE_GUATEMALA = {
+STATE_GUATEMALA = {
     id = 339
     subsistence_building = building_subsistence_farm
     provinces = { x011E0F x02073E x0F5049 x2D4EB6 x30E01C x42124E x464F6A x50B040 x50B0C0 x5449D0 x65C19A x6D71DA x702CD9 x78C465 x7D333F xA9090A xB2E11E xBD8628 xC67219 xD030C0 xD0B040 xD176F3 xD9BEFE xDEC8D3 xFA4B41 }
@@ -8,16 +8,16 @@
     farm = x65C19A
     mine = x5449D0
     wood = xFA4B41
-    arable_land = 40
+    arable_land = 50
     arable_resources = { building_maize_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_iron_mine = 30
-        building_logging_camp = 17
-        building_fishing_wharf = 5
+        building_iron_mine = 40
+        building_logging_camp = 20
+        building_fishing_wharf = 8
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 20
+        undiscovered_amount = 30
     }
     naval_exit_id = 3026
 }
@@ -31,15 +31,15 @@ STATE_SAN_SALVADOR = {
     farm = x107040
     mine = x964591
     wood = xC77E76
-    arable_land = 75
+    arable_land = 90
     arable_resources = { building_maize_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_logging_camp = 21
+        building_logging_camp = 26
         building_fishing_wharf = 12
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 26
+        undiscovered_amount = 30
     }
     naval_exit_id = 3026
 }
@@ -53,15 +53,15 @@ STATE_MANAGUA = {
     farm = x68E7F3
     mine = xC9A998
     wood = x9CDB2B
-    arable_land = 50
+    arable_land = 60
     arable_resources = { building_maize_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_logging_camp = 14
-        building_fishing_wharf = 5
+        building_logging_camp = 20
+        building_fishing_wharf = 8
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 14
+        undiscovered_amount = 18
     }
     naval_exit_id = 3026
 }
@@ -78,13 +78,13 @@ STATE_COSTA_RICA = {
     arable_land = 15
     arable_resources = { building_maize_farm building_livestock_ranch building_coffee_plantation building_dye_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_coal_mine = 24
-        building_logging_camp = 8
-        building_fishing_wharf = 3
+        building_coal_mine = 30
+        building_logging_camp = 10
+        building_fishing_wharf = 4
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 12
+        undiscovered_amount = 18
     }
     naval_exit_id = 3026
 }
@@ -97,16 +97,16 @@ STATE_PANAMA = {
     farm = x30B080
     mine = x8537FE
     wood = x717275
-    arable_land = 20
+    arable_land = 30
     arable_resources = { building_maize_farm building_livestock_ranch building_coffee_plantation building_tobacco_plantation building_banana_plantation }
     capped_resources = {
-        building_coal_mine = 36
-        building_logging_camp = 8
-        building_fishing_wharf = 6
+        building_coal_mine = 40
+        building_logging_camp = 10
+        building_fishing_wharf = 10
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 12
+        undiscovered_amount = 18
     }
     naval_exit_id = 3026
 }
@@ -118,15 +118,15 @@ STATE_SUDURHAFEYJAR = {
     port = xC6C663
     farm = x7252EC
     wood = x1785E8
-    arable_land = 65
+    arable_land = 70
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation building_dye_plantation }
     capped_resources = {
-        building_logging_camp = 18
-        building_fishing_wharf = 13
+        building_logging_camp = 20
+        building_fishing_wharf = 14
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 24
+        undiscovered_amount = 28
     }
     naval_exit_id = 3061
 }
@@ -138,15 +138,15 @@ STATE_RIGHAVN = {
     city = x2160B9
     port = xB07080
     farm = xB07080
-    arable_land = 15
+    arable_land = 24
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_logging_camp = 3
+        building_logging_camp = 6
         building_fishing_wharf = 4
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 6
+        undiscovered_amount = 8
     }
     naval_exit_id = 3025
 }
@@ -157,10 +157,10 @@ STATE_ELEUTHERA = {
     city = x686279
     port = x72C072
     farm = x4EBC79
-    arable_land = 10
+    arable_land = 20
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_fishing_wharf = 5
+        building_fishing_wharf = 6
     }
     naval_exit_id = 3061
 }
@@ -176,11 +176,11 @@ STATE_WEST_INDIES = {
     arable_land = 30
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_fishing_wharf = 8
+        building_fishing_wharf = 10
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 20
+        undiscovered_amount = 30
     }
     naval_exit_id = 3025
 }
@@ -195,12 +195,12 @@ STATE_EENDRACHTSLAND = {
     arable_land = 20
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_logging_camp = 4
-        building_fishing_wharf = 5
+        building_logging_camp = 10
+        building_fishing_wharf = 6
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 14
+        undiscovered_amount = 20
     }
     naval_exit_id = 3061
 }
@@ -214,20 +214,20 @@ STATE_WESTERN_CUBA = {
     farm = "x4DD008"
     mine = "xB325C7"
     wood = "xF3F2C9"
-    arable_land = 92
+    arable_land = 120
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
-        building_logging_camp = 4
+        building_logging_camp = 20
         building_fishing_wharf = 7
-        building_sulfur_mine = 3
+        building_sulfur_mine = 8
     }
     resource = {
         type = "building_rubber_plantation"
-        undiscovered_amount = 8
+        undiscovered_amount = 12
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 10
+        undiscovered_amount = 18
     }
     naval_exit_id = 3061
 }
@@ -242,15 +242,15 @@ STATE_EASTERN_CUBA = {
     farm = "x30B001"
     mine = "x519343"
     wood = "x69C041"
-    arable_land = 40
+    arable_land = 60
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
-        building_coal_mine = 10
-        building_iron_mine = 21
-        building_lead_mine = 4
-        building_sulfur_mine = 2
-        building_logging_camp = 8
-        building_fishing_wharf = 3
+        building_coal_mine = 20
+        building_iron_mine = 30
+        building_lead_mine = 8
+        building_sulfur_mine = 6
+        building_logging_camp = 14
+        building_fishing_wharf = 4
     }
     naval_exit_id = 3061
 }
@@ -265,12 +265,12 @@ STATE_CENTRAL_CUBA = {
     farm = "x58C211"
     mine = "x20EFEA"
     wood = "xC464AE"
-    arable_land = 71
+    arable_land = 90
     arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
     capped_resources = {
-        building_iron_mine = 3
-        building_logging_camp = 5
-        building_fishing_wharf = 3
+        building_iron_mine = 8
+        building_logging_camp = 8
+        building_fishing_wharf = 4
     }
     naval_exit_id = 3061
 }
