@@ -1,0 +1,69 @@
+﻿CHARACTERS = {
+	c:VEN = {
+		create_character = {
+			historical = yes
+			first_name = Silvestro
+			last_name = Dandolo  
+			ruler = yes
+			birth_date = 1774.5.21
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				persistent
+				pious
+			}
+		}
+
+		create_character = {
+			ruler = yes
+			first_name = Giacomo
+			last_name = Loredan
+			historical = yes
+			birth_date = 1800.5.16
+			ig_leader = yes
+			interest_group = ig_intelligentsia
+			ideology = ideology_radical
+	
+		  	traits = {
+				reckless
+			}
+		}
+
+		
+		create_character = {
+	  		ruler = yes
+			first_name = Ambroso
+		  	last_name = Garibaldi
+			historical = yes
+	  		birth_date = 1812.5.16
+			ig_leader = yes
+	  		interest_group = ig_intelligentsia
+	  		ideology = ideology_radical
+	  
+			traits = {
+				charismatic
+				romantic
+				erudite
+			}
+  		}
+		  create_character = {
+			ruler = yes
+		  	first_name = Francesco
+			last_name = Bartolomeo
+			historical = yes
+
+			birth_date = 1799.2.16
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_reformer
+	
+		  traits = {
+			  firebrand
+			  cocaine_addiction
+			  expensive_tastes
+			  expert_political_operator
+		  }
+		}
+
+     }   
+}
+

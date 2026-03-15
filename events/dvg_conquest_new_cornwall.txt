@@ -1,0 +1,59 @@
+﻿namespace = conquest_new_cornwall
+
+# Conquest of the Southern Deserts JE completion
+conquest_new_cornwall.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = conquest_new_cornwall.1.t
+	desc = conquest_new_cornwall.1.d
+	flavor = conquest_new_cornwall.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "southamerica_aristocrats"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/southamerica/aristocrats"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	trigger = {
+		# complete je_conquest_new_cornwall
+	}
+
+	immediate = {
+		
+	}
+	
+	option = {
+		name = conquest_new_cornwall.1.a
+		default_option = yes
+		if = {
+			limit = {
+				country_has_primary_culture = cu:beornian #DVG
+			}
+			
+			every_scope_state = {
+				limit = {
+					state_region = {
+						is_homeland = cu:patagonian
+						NOT = {
+							is_homeland = cu:beornian
+						}
+					}
+				}
+				state_region = {
+					add_homeland = cu:beornian
+				}
+			}
+		
+		}
+
+	}
+		
+		
+	
+}

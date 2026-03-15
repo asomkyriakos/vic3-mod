@@ -1,0 +1,253 @@
+﻿
+
+GOU = { #GOUAS
+	states = {
+		STATE_GOUAS
+	}
+
+	ai_will_do = { always = no }
+}
+
+NVG = { #Nova Gana
+	states = {
+		STATE_GUAYANA
+	}
+
+	ai_will_do = { always = no }
+}
+
+ANT = { #Antartica
+	states = {
+		STATE_FRANCE_ANTARTIQUE
+		STATE_MONTS_DIAMANTS
+		STATE_COTE_DU_SUCRE
+	}
+
+	ai_will_do = { always = no }
+}
+
+PDR = { #Pindorama
+	states = {
+		STATE_FRANCE_ANTARTIQUE
+		STATE_COTE_DU_SUCRE
+		STATE_MONTS_DIAMANTS
+		STATE_CAPPADOCE
+		STATE_VAURA
+		STATE_GOUAS
+		STATE_COTE_DU_CAFE
+	}
+
+	ai_will_do = { always = no }
+}
+
+BRS = { #Bresil
+	
+	states = {
+		STATE_FRANCE_ANTARTIQUE
+		STATE_COTE_DU_SUCRE
+		STATE_MONTS_DIAMANTS
+		STATE_CAPPADOCE
+		STATE_VAURA
+		STATE_GOUAS
+		STATE_COTE_DU_CAFE
+	}
+
+	ai_will_do = { always = no }
+}
+
+TWT = { #Tawantinsuyu
+	use_culture_states = yes
+
+	ai_will_do = { always = no }
+}
+
+BEO = { #Beornia
+	use_culture_states = yes
+
+	ai_will_do = { always = no }
+}
+
+LOT = { #Lotharingia
+	use_culture_states = yes
+
+	ai_will_do = { always = no }
+}
+
+NEA = { #New Alasce
+	states = {
+		STATE_NOUVELLE_ALSACE
+		
+		STATE_LIBREVILLE
+	}
+
+	ai_will_do = { always = no }
+}
+
+ODO = { #Odonia
+	states = {
+		STATE_BOURGOGNE_DU_SUD
+		
+		STATE_TRANSFLEUVE
+	}
+
+	ai_will_do = { always = no }
+}
+
+ATL = { #Atlantia
+	states = {
+		STATE_COTE_DU_CAFE
+	}
+
+	ai_will_do = { always = no }
+}
+
+AMA = { #Amazonie
+	use_culture_states = yes
+
+	ai_will_do = { always = no }
+}
+
+EQX = { #Equinoxea
+	states = { 
+		STATE_CAPPADOCE
+		STATE_VAURA
+		STATE_PARA
+		STATE_PROCHE_AMAZONIE
+		STATE_AMAZONIE_INFERIEURE
+	}
+
+	ai_will_do = { always = no }
+}
+
+CST = { #Aureliana
+	states = { 
+		STATE_MIRANDA
+		STATE_ZULIA
+		STATE_GUAVIARE
+		STATE_BOLIVAR
+		STATE_ANGOSTURA
+		STATE_GUAYANA
+		STATE_PARA
+	}
+
+	ai_will_do = { always = no }
+}
+
+SAN = { #Herreria
+	states = { 
+		STATE_ANTIOQUIA
+		STATE_CUNDINAMARCA
+		STATE_CAUCA
+	}
+
+	ai_will_do = { always = no }
+}
+
+QUI = { #Quito
+	states = { 
+		STATE_ECUADOR
+		STATE_PASTAZA
+		STATE_CAJAMARCA
+		STATE_LIMA
+		STATE_NEAR_ANTISUYU
+		STATE_CUNTISUYU
+		STATE_CUZCO
+	}
+
+	ai_will_do = { always = no }
+}
+
+#ARQ = { #Arequipa
+#	states = { 
+#		STATE_CUNTISUYU
+#		STATE_CUZCO
+#	}
+#
+#	ai_will_do = { always = no }
+#}
+
+ESQ = { #Essequibo
+	states = { 
+		STATE_GUAYANA
+		STATE_PARA
+	}
+
+	ai_will_do = { always = no }
+}
+
+GJR = { #Wayuu
+	STATES = {
+		STATE_ANTIOQUIA
+		STATE_ZULIA
+	}
+	ai_will_do = { always = no }
+}
+
+KRB = { #Carib
+	use_culture_states = yes
+
+	ai_will_do = { always = no }
+}
+
+TGI = { #Mangurujupe
+	states = { 
+		STATE_MARCHES_OUEST
+		STATE_GRAND_CHACO
+		STATE_CHACO_BOREAL
+		STATE_BRUXELLES_SUR_ODON
+	}
+	
+	ai_will_do = { always = no }
+}
+
+KGN = { #Kaingang
+	states = {
+		STATE_SERMOISE_SUR_ODON
+	}
+
+	ai_will_do = { always = no }
+}
+
+QUL = { #Qullaw
+	states = {
+		STATE_ANTISUYU
+		STATE_TIWANAKU
+		STATE_CHARCAS
+		STATE_ATACAMA
+		STATE_TILCARA
+		STATE_CATAMARCA
+		STATE_KUCHICHAY
+		STATE_NEAR_COLLASUYU
+		STATE_COLLASUYU
+	}
+
+	ai_will_do = { always = no }
+}
+
+FLK = { #Falklands
+	states = {
+		STATE_SOUTH_ATLANTIC_ISLANDS
+	}
+
+	ai_will_do = { always = no }
+}
+
+WLM = { #Wallmapu
+	states = {
+		STATE_COLLASUYU
+		STATE_NEW_CORNWALL
+	}
+	ai_will_do = { always = no }
+}
+
+CHM = { #Chimu
+	use_culture_states = yes
+
+	ai_will_do = { always = no }
+}
+
+TPJ = { #Tapajos
+	use_culture_states = yes
+
+	ai_will_do = { always = no }
+}

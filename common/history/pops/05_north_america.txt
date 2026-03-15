@@ -1,0 +1,2351 @@
+﻿POPS = {
+	#Hawaii
+	s:STATE_HAWAIIAN_ISLANDS = {
+		region_state:FGH = {
+			create_pop = {
+				culture = hawaiian
+				size = 45000
+				religion = mahayana
+			}
+			create_pop = {
+				culture = hawaiian
+				size = 18000
+				religion = animist
+			}
+			create_pop = {
+				culture = hawaiian
+				size = 18000
+				religion = catholic
+			}
+			create_pop = {
+				culture = hawaiian
+				size = 9000
+				religion = protestant
+			}
+			create_pop = {
+				culture = qingqiuan
+				size = 4500
+			}
+			create_pop = {
+				culture = japanese
+				size = 700
+			}
+			create_pop = {
+				culture = scandinavian
+				size = 100
+			}
+		}
+	}
+
+	
+	#Plantagenia
+	s:STATE_NOUVELLE_FRANCE = {
+		region_state:PLA = {
+			create_pop = {
+				culture = cadien
+				size = 597234
+			}
+			create_pop = {
+				culture = cadien
+				religion = jewish
+				size = 16403
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 29854
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_arcadian
+				size = 502645
+			}
+		}
+	}
+	s:STATE_NOUVELLE_ANGLETERRE = {
+		region_state:PLA = {
+			create_pop = {
+				culture = cadien
+				size = 178673
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 9120
+			}	
+			create_pop = {
+				pop_type = slaves
+				culture = afro_arcadian
+				size = 213916
+			}
+			create_pop = {
+				culture = apache
+				size = 5698
+			}
+		}
+	}
+	s:STATE_MONT_AUX_ARCS = {
+		region_state:PLA = {
+			create_pop = {
+				culture = cadien
+				size = 259979
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 49600
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_arcadian
+				size = 31181
+			}
+		}
+	}
+	s:STATE_MESSISIPI = {
+		region_state:PLA = {
+			create_pop = {
+				culture = cadien
+				size = 102077
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 17856
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_arcadian
+				size = 345448
+			}
+		}
+	}
+	s:STATE_ALIBAMON = {
+		region_state:PLA = {
+			create_pop = {
+				culture = cadien
+				size = 396953
+			}
+			create_pop = {
+				culture = cherokee
+				size = 16350
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 26224
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_arcadian
+				size = 467015
+			}
+		}
+	}
+	s:STATE_CHARLESIE = {
+		region_state:PLA = {
+			create_pop = {
+				culture = cadien
+				size = 266734
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 59200
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_arcadian
+				size = 383679
+			}
+			create_pop = {
+				culture = cherokee
+				size = 11024
+			}
+		}
+	}
+	s:STATE_LOUISIANE_ROYALE = {
+		region_state:PLA = {
+			create_pop = {
+				culture = cadien
+				size = 510310
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 76020
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_arcadian
+				size = 769481
+			}
+		}
+	}
+	s:STATE_PAYS_TSALAGI = {
+		region_state:CHE = {
+			create_pop = {
+				culture = cadien
+				size = 4540
+			}
+			create_pop = {
+				culture = cherokee
+				size = 94839
+			}
+			create_pop = {
+				culture = afro_arcadian
+				pop_type = slaves
+				size = 23213
+			}
+		}
+	}
+	s:STATE_CHAOUENONS = {
+		region_state:PLA = {
+			create_pop = {
+				culture = cadien
+				size = 24429
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 1534
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_arcadian
+				size = 6784
+			}
+			create_pop = {
+				culture = cherokee
+				size = 6323
+			}
+			create_pop = {
+				culture = algonquian
+				size = 89320
+			}
+		}
+	}
+	s:STATE_SANACOMIE = {
+		region_state:PLA = {
+			create_pop = {
+				culture = cadien
+				size = 310201
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 35329
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_arcadian
+				size = 171192
+			}
+		}
+		region_state:CNF = {
+			create_pop = {
+				culture = cadien
+				size = 59578
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 3254
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_arcadian
+				size = 18447
+			}
+		}
+	}
+	s:STATE_BERMUDA = {
+		region_state:PLA = {
+			create_pop = {
+				culture = cadien
+				size = 9419
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 807
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_arcadian
+				size = 23413
+			}
+		}
+	}
+	s:STATE_AKANSA = {
+		
+		region_state:MIS = {
+			create_pop = {
+				culture = siouan
+				size = 37182
+			}
+		}
+		region_state:PLA = {
+			create_pop = {
+				culture = cadien
+				size = 37182
+			}
+		}
+	}
+	s:STATE_LES_PAINS = {
+		region_state:ARP = {
+			create_pop = {
+				culture = siouan
+				size = 31120
+			}
+		}
+	}
+	
+	#Belgian Confederacy
+	s:STATE_NOUVELLE_FLANDRE = {
+		region_state:CNF = {
+			create_pop = {
+				culture = septiman
+				size = 1586006
+			}
+			create_pop = {
+				culture = septiman
+				size = 14360
+				religion = jewish
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 46714
+				religion = protestant
+			}
+		}
+	}
+	s:STATE_PHILIPPA = {
+		region_state:CPH = {
+			create_pop = {
+				culture = septiman
+				size = 1310932
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 33328
+				religion = protestant
+			}
+		}
+	}
+	
+	s:STATE_CAROLINE = {
+		region_state:CCA = {
+			create_pop = {
+				culture = septiman
+				size = 537231
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 16304
+				religion = protestant
+			}
+			create_pop = {
+				culture = iroquoian
+				size = 4323
+			}
+		}
+	}
+	s:STATE_FLANDRE_SUPERIEURE = {
+		region_state:CFS = {
+			create_pop = {
+				culture = septiman
+				size = 683921
+			}
+			create_pop = {
+				culture = iroquoian
+				size = 7953
+			}
+		}
+	}
+	s:STATE_HAUTE_VALOISIE = {
+		region_state:CHV = {
+			create_pop = {
+				culture = septiman
+				size = 612032
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 3032
+				religion = protestant
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_arcadian
+				size = 71023
+				religion = protestant
+			}
+		}
+	}
+	s:STATE_BASSE_VALOISIE = {
+		region_state:CBV = {
+			create_pop = {
+				culture = septiman
+				size = 49394
+			}
+			create_pop = {
+				culture = cadien
+				size = 31183
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 2535
+				religion = protestant
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_arcadian
+				size = 532440
+				religion = protestant
+			}
+		}
+	}
+	s:STATE_NOUVELLE_LORRAINE = {
+		region_state:CNL = {
+			create_pop = {
+				culture = septiman
+				size = 602043
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 30989
+				religion = protestant
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_arcadian
+				size = 258432
+				religion = protestant
+			}
+		}
+	}
+	
+	#Vinland
+
+	s:STATE_KRONELAND = {
+		region_state:VIN = {
+			create_pop = {
+				culture = vinlander
+				size = 407503
+			}
+			create_pop = {
+				culture = scandinavian
+				size = 57503
+			}
+			create_pop = {
+				culture = afro_germanic
+				size = 14343
+			}
+		}
+	}
+	s:STATE_MASGIRLAND = {
+		region_state:MSG = {
+			if = {
+				limit = {
+					has_game_rule = breakaway
+				}
+				create_pop = {
+					culture = masgirlander
+					size = 178600
+				}
+				create_pop = {
+					culture = vinlander
+					size = 108600
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_game_rule = breakaway
+					}
+					
+					
+				}
+				create_pop = {
+					culture = vinlander
+					size = 178600
+				}
+			
+			}
+			
+			create_pop = {
+				culture = afro_germanic
+				size = 24353
+			}
+			create_pop = {
+				culture = balters
+				size = 1500
+			}
+		}
+	}
+	s:STATE_NUREMBORG = {
+		region_state:MSG = {
+			if = {
+				limit = {
+					has_game_rule = breakaway
+				}
+				create_pop = {
+					culture = masgirlander
+					size = 58600
+				}
+				create_pop = {
+					culture = vinlander
+					size = 18600
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_game_rule = breakaway
+					}
+					
+					
+				}
+				create_pop = {
+					culture = vinlander
+					size = 178600
+				}
+			
+			}
+			create_pop = {
+				culture = afro_germanic
+				size = 20353
+			}
+			create_pop = {
+				culture = north_german
+				size = 4000
+			}
+			
+			
+		}
+	}
+	s:STATE_VINLAND = {
+		region_state:VIN = {
+			create_pop = {
+				culture = vinlander
+				size = 809960
+			}
+			create_pop = {
+				culture = scandinavian
+				size = 80000
+			}
+			create_pop = {
+				culture = afro_germanic
+				size = 21032
+			}
+		}
+	}
+	s:STATE_NORDELV = {
+		region_state:VIN = {
+			create_pop = {
+				culture = vinlander
+				size = 984341
+			}	
+			create_pop = {
+				culture = afro_germanic
+				size = 5343
+			}
+			create_pop = {
+				culture = iroquoian
+				size = 9734
+			}
+		}
+	}
+	s:STATE_MARKLAND = {
+		region_state:VIN = {
+			create_pop = {
+				culture = vinlander
+				size = 61273
+			}
+			create_pop = {
+				culture = inuit
+				size = 15799
+			}
+			create_pop = {
+				culture = cree
+				size = 3128
+			}
+		}
+	}
+	s:STATE_HELLULAND = {
+		region_state:VIN = {
+			create_pop = {
+				culture = cree
+				size = 8078
+			}
+			create_pop = {
+				culture = inuit
+				size = 5922
+			}
+		}
+	}
+	
+	#Skraelingland
+	
+	s:STATE_SKRAELINGMARK = {
+		region_state:SKR = {
+			create_pop = {
+				culture = vinlander
+				size = 5459
+			}
+			create_pop = {
+				culture = iroquoian
+				size = 46340
+			}
+			create_pop = {
+				culture = algonquian
+				size = 9023
+			}
+			create_pop = {
+				culture = afro_germanic
+				size = 1021
+			}
+		}
+	}
+	s:STATE_POTOMIMARK = {
+		region_state:SKR = {	
+			create_pop = {
+				culture = iroquoian
+				size = 54031
+			}
+			create_pop = {
+				culture = vinlander
+				size = 2354
+			}
+			create_pop = {
+				culture = algonquian
+				size = 74342
+		}
+		}
+	}
+	s:STATE_ERIESLAND = {
+		region_state:SKR = {
+			create_pop = {
+				culture = iroquoian
+				size = 30239
+			}
+			create_pop = {
+				culture = algonquian
+				size = 9302
+			}
+			create_pop = {
+				culture = septiman
+				size = 2000
+			}
+	}
+	}
+	s:STATE_ODAWAMARK = {
+		region_state:SKR = {
+			create_pop = {
+				culture = algonquian
+				size = 30282
+			}	
+			create_pop = {
+				culture = iroquoian
+				size = 1829
+			}
+		}
+		region_state:VIN = {
+			create_pop = {
+				culture = vinlander
+				size = 12209
+			}
+			create_pop = {
+				culture = algonquian
+				size = 9281
+			}
+		}
+	}
+	s:STATE_KRISTIANIA = {
+		region_state:VIN = {
+			create_pop = {
+				culture = inuit
+				size = 41031
+			}
+		}
+	}
+	s:STATE_GANIGIALAND = {
+		region_state:SKR = {
+			create_pop = {
+				culture = iroquoian
+				size = 104300
+			}
+			create_pop = {
+				culture = septiman
+				size = 1000
+			}
+		}
+	}
+	s:STATE_WINEPI = {
+		region_state:SKR = {
+			create_pop = {
+				culture = cree
+				size = 1920
+			}
+			create_pop = {
+				culture = algonquian
+				size = 12011
+			}
+		}
+		region_state:VIN = {
+			create_pop = {
+				culture = rohnnst
+				size = 9001
+			}
+			create_pop = {
+				culture = vinlander
+				size = 2910
+			}
+			create_pop = {
+				culture = cree
+				size = 4302
+			}
+		}
+	}
+	s:STATE_MENEMENE = {
+		region_state:SKR = {
+			create_pop = {
+				culture = dakota
+				size = 22183
+			}
+			create_pop = {
+				culture = algonquian
+				size = 46283
+			}
+		}
+	}
+	s:STATE_ILLNIMARK = {
+		region_state:SKR = {
+			create_pop = {
+				culture = algonquian
+				size = 101239
+			}
+		}
+	}
+	s:STATE_COSKAQUIAS = {
+		region_state:SKR = {
+			create_pop = {
+				culture = algonquian
+				size = 53103
+			}
+			create_pop = {
+				culture = afro_arcadian
+				size = 10021
+			}
+			create_pop = {
+				culture = cadien
+				size = 3021
+			}
+		}
+	}
+	
+	#Kita Kaigan
+	s:STATE_XIAZHOU = {
+		region_state:KKN = {
+			create_pop = {
+				culture = kaiganese
+				size = 565480
+			}
+			create_pop = {
+				culture = qingqiuan
+				size = 103234
+			}
+			create_pop = {
+				culture = japanese
+				size = 94832
+			}
+			create_pop = { 
+				culture = athabaskan
+				size = 23503
+			}
+			create_pop = {
+				culture = salish
+				size = 95372
+			}
+			
+		}
+	}
+	s:STATE_KITA_KAIGAN = {
+		region_state:KKN = {
+			create_pop = {
+				culture = kaiganese
+				size = 32131
+			}
+			create_pop = {
+				culture = kaiganese
+				size = 15058
+				religion = shinto
+			}
+			create_pop = {
+				culture = kaiganese
+				size = 3043
+
+			}
+			create_pop = {
+				culture = athabaskan
+				size = 17971
+			}
+			create_pop = {
+				culture = inuit
+				size = 8018
+			}
+		}
+	}
+	s:STATE_GURETONOSU = {
+		region_state:KKN = {
+			create_pop = {
+				culture = kaiganese
+				size = 12819
+			}
+			create_pop = {
+				culture = athabaskan
+				size = 9381
+			}
+			create_pop = {
+				culture = japanese
+				size = 1000
+			}
+		}
+	}
+	s:STATE_GUMAO = {
+		region_state:KKN = {
+			create_pop = {
+				culture = athabaskan
+				size = 8172
+			}
+		create_pop = {
+				culture = kaiganese
+				size = 2023
+			}
+		}
+	}
+	s:STATE_TANGWANG = {
+		region_state:KKN = {
+			create_pop = {
+				culture = qingqiuan
+				size = 5406
+			}
+			create_pop = {
+				culture = kaiganese
+				size = 76020
+			}
+			create_pop = {
+				culture = athabaskan
+				size = 11120
+			}
+			create_pop = {
+				culture = salish
+				size  = 26480
+		}
+	}
+	}
+	#Japan
+	s:STATE_DINGGUO = {
+		region_state:JAP = {
+			create_pop = {
+				culture = qingqiuan
+				size = 12904
+			}
+			create_pop = {
+				culture = kaiganese
+				size = 86476
+			}
+			create_pop = {
+				culture = chunggu
+				size = 4918
+			}
+			create_pop = {
+				culture = salish
+				size = 25277
+			}
+			create_pop = {
+				culture = japanese
+				size = 14634
+		}
+		}
+	}	
+	
+	#Qingqiu
+	s:STATE_ZHONGRONG = {
+		region_state:QIN = {
+			create_pop = {
+				culture = qingqiuan
+				size = 89539
+			}
+			create_pop = {
+				culture = qingqiuan
+				religion = catholic
+				size = 39553
+			}
+			create_pop = {
+				culture = qingqiuan
+				religion = taiping
+				size = 46229
+			}
+			create_pop = {
+				culture = chunggu
+				size = 39432
+			}
+			create_pop = {
+				culture = chunggu
+				religion = taiping
+				size = 2447
+			}
+			create_pop = {
+				culture = kaiganese
+				size = 4343
+			}
+			create_pop = {
+				culture = hokan
+				size = 30091
+			}
+			create_pop = {
+				culture = hokan
+				religion = taiping
+				size = 81357
+		}
+	}
+	}
+	s:STATE_XINGYE = {
+		region_state:QIN = {
+			create_pop = {
+				culture = qingqiuan
+				size = 198108
+			}
+			create_pop = {
+				culture = qingqiuan
+				religion = catholic
+				size = 16323
+			}
+			create_pop = {
+				culture = qingqiuan
+				religion = taiping
+				size = 53184
+			}
+			create_pop = {
+				culture = chunggu
+				size = 17688
+			}
+			create_pop = {
+				culture = chunggu
+				religion = taiping
+				size = 3184
+			}
+			create_pop = {
+				culture = kaiganese
+				size = 31400
+			}
+			create_pop = {
+				culture = kaiganese
+				religion = shinto
+				size = 3760
+			}
+			create_pop = {
+				culture = hokan
+				size = 48342
+			}
+			create_pop = {
+				culture = hokan
+				religion = taiping
+				size = 11200
+			}
+			create_pop = {
+				culture = taixi
+				size = 4766
+			}
+		}
+	}
+	s:STATE_SANBAO = {
+		region_state:QIN = {
+			create_pop = {
+				culture = qingqiuan
+				size = 311520
+			}
+			create_pop = {
+				culture = qingqiuan
+				religion = catholic
+				size = 161100
+			}
+			create_pop = {
+				culture = qingqiuan
+				religion = taiping
+				size = 69200
+			}
+			create_pop = {
+				culture = chunggu
+				size = 12752
+			}
+			create_pop = {
+				culture = chunggu
+				religion = taiping
+				size = 2143
+			}
+			create_pop = {
+				culture = kaiganese
+				size = 17464
+			}
+			create_pop = {
+				culture = kaiganese
+				religion = shinto
+				size = 480
+			}
+			create_pop = {
+				culture = lusitanian
+				size = 16344
+			}
+			create_pop = {
+				culture = lusitanian
+				religion = jewish
+				size = 7136
+			}
+			create_pop = {
+				culture = hokan
+				size = 106400
+			}
+			create_pop = {
+				culture = hokan
+				religion = taiping
+				size = 18151
+			}
+			create_pop = {
+				culture = taixi
+				size = 12458
+			}
+		}
+	}
+	s:STATE_DONGHAI = {
+		region_state:QIN = {
+			create_pop = {
+				culture = qingqiuan
+				size = 61620
+			}
+			create_pop = {
+				culture = qingqiuan
+				religion = catholic
+				size = 152960
+			}
+			create_pop = {
+				culture = qingqiuan
+				religion = taiping
+				size = 34826
+			}
+			create_pop = {
+				culture = lusitanian
+				size = 43358
+			}
+			create_pop = {
+				culture = hokan
+				size = 135078
+			}
+			create_pop = {
+				culture = hokan
+				religion = taiping
+				size = 37431
+			}
+			create_pop = {
+				culture = taixi
+				size = 6342
+			}
+		}
+	}
+	s:STATE_DAYAN = {
+		region_state:QIN = {
+			create_pop = {
+				culture = qingqiuan
+				size = 41320
+			}
+			create_pop = {
+				culture = qingqiuan
+				religion = taiping
+				size = 82928
+			}
+			create_pop = {
+				culture = taixi
+				size = 4303
+			}
+			create_pop = {
+				culture = paiute
+				size = 21120
+			}
+			create_pop = {
+				culture = paiute
+				religion = taiping
+				size = 56067
+			}
+		}
+	}
+	s:STATE_XINGTIAN = {
+		region_state:QIN = {
+			create_pop = {
+				culture = qingqiuan
+				size = 36231
+			}
+			create_pop = {
+				culture = qingqiuan
+				size = 175699
+				religion = catholic
+			}
+			create_pop = {
+				culture = qingqiuan
+				size = 29760
+				religion = taiping
+			}
+			create_pop = {
+				culture = lusitanian
+				size = 112347
+			}
+			create_pop = {
+				culture = lusitanian
+				religion = jewish
+				size = 31832
+			}	
+			create_pop = {
+				culture = afro_latino
+				size = 37281
+			}
+			create_pop = {
+				culture = taixi
+				size = 11032
+			}
+		}
+	}
+	s:STATE_JULINYUTIAN = {
+		region_state:NZP = {
+			create_pop = { 
+				culture = athabaskan
+				size = 25000
+			}
+			create_pop = {
+				culture = nez_perce
+				size = 19000
+			}
+		}
+	}
+	s:STATE_XIAOSU = {
+		region_state:QIN = {
+			create_pop = {
+				culture = chunggu
+				size = 155040
+			}
+			create_pop = {
+				culture = kaiganese
+				size = 48760
+			}
+			create_pop = {
+				culture = qingqiuan
+				size = 8160
+			}
+		}
+		region_state:KKN = {
+			create_pop ={
+				culture = chunggu
+				size = 32480
+			}
+			create_pop = {
+				culture = kaiganese
+				size = 160370
+			}
+			create_pop = {
+				culture = qingqiuan
+				size = 10550
+			}
+			create_pop = {
+				culture = japanese
+				size = 500
+			}
+		}
+	}
+	s:STATE_HEICHI = {
+		region_state:QIN = {
+			create_pop = {
+				culture = chunggu
+				size = 171898
+			}
+			create_pop = {
+				culture = qingqiuan
+				size = 80371
+			}
+			create_pop = {
+				culture = salish
+				size = 20524
+			}
+		}
+	}
+	s:STATE_QIZHOU = {
+		region_state:QIN = {
+			create_pop = {
+				culture = chunggu
+				size = 274819
+			}
+			create_pop = {
+				culture = qingqiuan
+				size = 76037
+			}
+			create_pop = {
+				culture = kaiganese
+				size = 21127
+			}
+			create_pop = {
+				culture = nez_perce
+				size = 20019
+			}
+			create_pop = {
+				culture = salish
+				size = 14052
+			}
+		}
+	}
+	s:STATE_DONGJI = {
+		region_state:XSU = {
+			create_pop = { 
+				culture = nez_perce
+				size = 11824
+			}
+			create_pop = {
+				culture = paiute
+				size = 79779
+			}
+			create_pop = {
+				culture = chunggu
+				size = 3172
+			}
+		}
+	}
+	
+	#Athesia
+	s:STATE_ATHESIA = {
+		region_state:ATH = {
+			if = {
+				limit = {
+					has_game_rule = breakaway
+				}
+				create_pop = {
+					culture = athesian
+					size = 80474
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = no_breakaway
+				}
+				create_pop = {
+					culture = venetian
+					size = 80474
+				}
+			}
+			
+			create_pop = {
+				culture = afro_latino
+				size = 34402
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 89854
+			}
+		}
+		region_state:SML = {
+			create_pop = {
+				culture = muskogean
+				size = 58664
+			}
+		}
+	}
+	s:STATE_ELEUTHERA = {
+		region_state:ATH = {
+			create_pop = {
+				culture = athesian
+				size = 68860
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 218
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 65129
+			}
+		}
+	}
+	
+	#Gran Colombia
+	s:STATE_MEXICO = {
+		region_state:GCO = {
+			create_pop = {
+				culture = mexican
+				size = 825848
+			}
+			create_pop = {
+				culture = nahua
+				size = 620463
+			}
+			create_pop = {
+				culture = mixtec
+				religion = catholic
+				size = 39996
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 78872
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 189294
+			}
+		}
+	}
+	s:STATE_VERACRUZ = {
+		region_state:GCO = {
+			create_pop = {
+				culture = mexican
+				size = 120000
+			}
+			create_pop = {
+				culture = sephardic
+				size = 500
+			}
+			create_pop = {
+				culture = nahua
+				size = 95986
+			}
+			create_pop = {
+				culture = zapotec
+				size = 59526
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 8557
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 87429
+			}
+		}
+	}
+	s:STATE_GUERRERO = {
+		region_state:GCO = {
+			create_pop = {
+				culture = mexican
+				size = 113307
+			}
+			create_pop = {
+				culture = tarascan
+				size = 154419
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 66514
+			}
+		}
+	}
+	s:STATE_OAXACA = {
+		region_state:GCO = {
+			create_pop = {
+				culture = mexican
+				size = 83686
+			}
+			create_pop = {
+				culture = zapotec
+				size = 376076
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 50518
+			}
+		}
+	}
+	s:STATE_BAHIA = {
+		region_state:GCO = {
+			create_pop = {
+				culture = mexican
+				size = 17102
+			}
+			create_pop = {
+				culture = lusitanian
+				size = 334835
+			}
+			create_pop = {
+				culture = cadien
+				size = 17102
+			}
+			create_pop = {
+				culture = apache
+				size = 14743
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 237067
+			}
+			# create_pop = {
+				# culture = mexican
+				# size = 17102
+			# }
+			# create_pop = {
+				# culture = lusitanian
+				# size = 284835
+			# }
+			# create_pop = {
+				# culture = cadien
+				# size = 17102
+			# }
+			# create_pop = {
+				# culture = comanche
+				# size = 14743
+			# }
+			# create_pop = {
+				# pop_type = slaves
+				# culture = afro_latino
+				# size = 237067
+			# }
+		}
+	}
+	s:STATE_TERRAS_VERMELHAS = {
+		region_state:PUE = {
+			create_pop = {
+				culture = lusitanian
+				size = 1011
+			}
+			create_pop = {
+				culture = navajo
+				size = 7057
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 672
+			}
+			create_pop = {
+				culture = pueblo
+				size = 60059
+			}
+			create_pop = {
+				culture = apache
+				size = 30104
+			}
+			# create_pop = {
+				# culture = lusitanian
+				# size = 101148
+			# }
+			# create_pop = {
+				# culture = apache
+				# size = 137104
+			# }
+			# create_pop = {
+				# culture = navajo
+				# size = 7057
+			# }
+			# create_pop = {
+				# culture = afro_latino
+				# size = 672
+			# }
+			# create_pop = {
+				# pop_type = slaves
+				# culture = afro_latino
+				# size = 90059
+			# }
+		}
+	}
+	#s:STATE_LUSITANIA = {
+	#	region_state:GCO = {
+	#		create_pop = {
+	#			culture = mexican
+	#			size = 121994
+	#		}
+	#		create_pop = {
+	#			culture = lusitanian
+	#			size = 307608
+	#		}
+	#		create_pop = {
+	#			culture = apache
+	#			size = 81329
+	#		}
+	#		create_pop = {
+	#			culture = afro_latino
+	#			size = 9182
+	#		}
+	#		create_pop = {
+	#			pop_type = slaves
+	#			culture = afro_latino
+	#			size = 135767
+	#		}
+	#	}
+	#}
+	s:STATE_SANTA_CATARINA = {
+		region_state:GCO = {
+			create_pop = {
+				culture = mexican
+				size = 62572
+			}
+			create_pop = {
+				culture = lusitanian
+				size = 130765
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 25478
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 58145
+			}
+			# create_pop = {
+				# culture = mexican
+				# size = 82572
+			# }
+			# create_pop = {
+				# culture = lusitanian
+				# size = 130765
+			# }
+			# create_pop = {
+				# culture = afro_latino
+				# size = 25478
+			# }
+			# create_pop = {
+				# pop_type = slaves
+				# culture = afro_latino
+				# size = 68145
+			# }
+		}
+	}
+	s:STATE_TEJAS = {
+		region_state:GCO = {
+			create_pop = {
+				culture = mexican
+				size = 81598
+			}
+			create_pop = {
+				culture = lusitanian
+				size = 238237
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 12647
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 77917
+			}
+			# create_pop = {
+				# culture = mexican
+				# size = 109598
+			# }
+			# create_pop = {
+				# culture = lusitanian
+				# size = 238237
+			# }
+			# create_pop = {
+				# culture = afro_latino
+				# size = 17647
+			# }
+			# create_pop = {
+				# pop_type = slaves
+				# culture = afro_latino
+				# size = 98917
+			# }
+		}
+	}
+	s:STATE_RIO_GRANDE = {
+		region_state:GCO = {
+			create_pop = {
+				culture = mexican
+				size = 66399
+			}
+			create_pop = {
+				culture = lusitanian
+				size = 173851
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 6436
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 44754
+			}
+			# create_pop = {
+				# culture = mexican
+				# size = 229669
+			# }
+			# create_pop = {
+				# culture = lusitanian
+				# size = 173851
+			# }
+			# create_pop = {
+				# culture = afro_latino
+				# size = 22676
+			# }
+			# create_pop = {
+				# pop_type = slaves
+				# culture = afro_latino
+				# size = 155244
+			# }
+		}
+	}
+	s:STATE_DURANGO = {
+		region_state:GCO = {
+			create_pop = {
+				culture = mexican
+				size = 72245
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 11596
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 71639
+			}
+			# create_pop = {
+				# culture = mexican
+				# size = 44245
+			# }
+			# create_pop = {
+				# culture = afro_latino
+				# size = 6596
+			# }
+			# create_pop = {
+				# pop_type = slaves
+				# culture = afro_latino
+				# size = 50639
+			# }
+		}
+	}
+	s:STATE_YUCATAN = {
+		region_state:GCO = {
+			create_pop = {
+				culture = mexican
+				size = 105462
+			}
+			create_pop = {
+				culture = central_american
+				size = 90720
+			}
+			create_pop = {
+				culture = mayan
+				size = 223965
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = mayan
+				size = 146853
+			}
+		}
+	}
+	s:STATE_JALISCO = {
+		region_state:GCO = {
+			create_pop = {
+				culture = mexican
+				size = 409075
+			}
+			create_pop = {
+				culture = tarascan
+				size = 416198
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 14246
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 177062
+			}
+		}
+	}
+	s:STATE_SINALOA = {
+		region_state:GCO = {
+			create_pop = {
+				culture = mexican
+				size = 83048
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 26988
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 101964
+			}
+			# create_pop = {
+				# culture = mexican
+				# size = 63048
+			# }
+			# create_pop = {
+				# culture = afro_latino
+				# size = 1988
+			# }
+			# create_pop = {
+				# pop_type = slaves
+				# culture = afro_latino
+				# size = 76964
+			# }
+		}
+	}
+	s:STATE_BAJIO = {
+		region_state:GCO = {
+			create_pop = {
+				culture = mexican
+				size = 352476
+			}
+			create_pop = {
+				culture = nahua
+				size = 313351
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 38148
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 249905
+			}
+		}
+	}
+	s:STATE_ZACATECAS = {
+		region_state:GCO = {
+			create_pop = {
+				culture = mexican
+				size = 110927
+			}
+			create_pop = {
+				culture = nahua
+				size = 143742
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 40337
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 111673
+			}
+			# create_pop = {
+				# culture = mexican
+				# size = 110927
+			# }
+			# create_pop = {
+				# culture = nahua
+				# size = 143742
+			# }
+			# create_pop = {
+				# culture = afro_latino
+				# size = 15337
+			# }
+			# create_pop = {
+				# pop_type = slaves
+				# culture = afro_latino
+				# size = 86673
+			# }
+		}
+	}
+	s:STATE_CHIAPAS = {
+		region_state:GCO = {
+			create_pop = {
+				culture = mexican
+				size = 6490
+			}
+			create_pop = {
+				culture = central_american
+				size = 7982
+			}
+			create_pop = {
+				culture = mayan
+				size = 80179
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = mayan
+				size = 52573
+			}
+			# create_pop = {
+				# culture = mexican
+				# size = 18128
+			# }
+			# create_pop = {
+				# culture = central_american
+				# size = 22297
+			# }
+			# create_pop = {
+				# culture = mayan
+				# size = 223965
+			# }
+			# create_pop = {
+				# pop_type = slaves
+				# culture = mayan
+				# size = 146853
+			# }
+		}
+	}
+	s:STATE_BAJA_CALIFORNIA = {
+		region_state:GCO = {
+			create_pop = {
+				culture = mexican
+				size = 18454
+			}
+			create_pop = {
+				culture = lusitanian
+				size = 90695 # 109931 before qingqiuan and buyeoan added
+			}
+			create_pop = {
+				culture = oodham
+				size = 15583
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 27945
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 47810 # 68167 before qingqiuan and buyeoan added
+			}
+			create_pop = {
+				culture = qingqiuan
+				size = 39593 # 4236 are merged buyeoan
+			}
+			# create_pop = {
+				# culture = mexican
+				# size = 18454
+			# }
+			# create_pop = {
+				# culture = lusitanian
+				# size = 159931
+			# }
+			# create_pop = {
+				# culture = oodham
+				# size = 15583
+			# }
+			# create_pop = {
+				# culture = afro_latino
+				# size = 127945
+			# }
+			# create_pop = {
+				# pop_type = slaves
+				# culture = afro_latino
+				# size = 88167
+			# }
+		}
+	}
+	s:STATE_GUATEMALA = {
+		region_state:GCO = {
+			create_pop = {
+				culture = central_american
+				size = 153347
+			}
+			create_pop = {
+				culture = mayan
+				size = 320353
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = mayan
+				size = 140931
+			}
+		}
+	}
+	s:STATE_SAN_SALVADOR = {
+		region_state:GCO = {
+			create_pop = {
+				culture = central_american
+				size = 382866
+			}
+			create_pop = {
+				culture = miskito
+				size = 3000
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 8708
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 149666
+			}
+		}
+	}
+	s:STATE_MANAGUA = {
+		region_state:GCO = {
+			create_pop = {
+				culture = central_american
+				size = 164421
+			}
+			create_pop = {
+				culture = miskito
+				size = 40000
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 4121
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 66217
+			}
+		}
+	}
+	s:STATE_COSTA_RICA = {
+		region_state:GCO = {
+			create_pop = {
+				culture = central_american
+				size = 85552
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 19808
+			}
+		}
+	}
+	s:STATE_PANAMA = {
+		region_state:GCO = {
+			create_pop = {
+				culture = central_american
+				size = 103822
+			}
+			create_pop = {
+				culture = granadan
+				size = 3890
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 11968
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 29770
+			}
+		}
+	}
+	
+	#Sudurhafeyjar
+	s:STATE_SUDURHAFEYJAR = {
+		region_state:SFJ = {
+			create_pop = {
+				culture = ayitian
+				size = 352126
+			}
+			create_pop = {
+				culture = afro_germanic
+				size = 96330
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_germanic
+				size = 202424
+			}
+		}
+	}
+	s:STATE_RIGHAVN = {
+		region_state:SFJ = {
+			create_pop = {
+				culture = ayitian
+				size = 182520
+			}
+			create_pop = {
+				culture = afro_germanic
+				size = 88452
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_germanic
+				size = 80028
+			}
+		}
+	}
+	
+	#Burgundy
+	s:STATE_EENDRACHTSLAND = {
+		region_state:BRG = {
+			create_pop = {
+				culture = burgundian
+				size = 20353
+			}
+			create_pop = {
+				culture = afro_antillean
+				size = 183958
+				religion = protestant
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_antillean
+				size = 187089
+				religion = protestant
+			}
+		}
+	}
+	
+	#Kuba
+	s:STATE_WESTERN_CUBA = {
+		region_state:CUB = {
+			create_pop = {
+				culture = caribeno
+				size = 559638
+			}
+			create_pop = {
+				culture = portuguese
+				size = 28997
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 133385
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 244540
+			}
+		}
+	}
+
+	s:STATE_EASTERN_CUBA = { 
+		region_state:CUB = {
+			# 896400
+			create_pop = {
+				culture = caribeno
+				size = 78491
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 39122
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 91777
+			}
+			create_pop = {
+				culture = spanish
+				size = 8000
+			}
+		}
+	}
+
+	s:STATE_CENTRAL_CUBA = { 
+		region_state:CUB = {
+			# 896400
+			create_pop = {
+				culture = caribeno
+				size = 100616
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 32104
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 137198
+			}
+			create_pop = {
+				culture = spanish
+				size = 12000
+			}
+		}
+	}
+	
+	#West Indies
+	s:STATE_WEST_INDIES = {
+		region_state:SPA = {
+			create_pop = {
+				culture = portuguese
+				size = 5510
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 30167
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_latino
+				size = 31604
+			}
+		}
+		region_state:ARN = {
+			create_pop = {
+				culture = catalan
+				size = 3692
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 2341
+			}
+			create_pop = {
+				culture = afro_latino
+				size = 39259
+			}
+		}
+		region_state:CRL = {
+			create_pop = {
+				culture = balters
+				size = 13730
+			}
+			create_pop = {
+				culture = afro_germanic
+				size = 102630
+			}
+		}
+		region_state:POL = {
+			create_pop = {
+				culture = polish
+				size = 2490
+			}
+			create_pop = {
+				culture = afro_germanic
+				size = 27510
+				religion = catholic
+			}
+		}
+		region_state:DUA = {
+			create_pop = {
+				culture = anglois
+				size = 4590
+			}
+			create_pop = {
+				culture = afro_antillean
+				size = 19008
+			}
+			create_pop = {
+				culture = afro_antillean
+				size = 30402
+			}
+		}
+		region_state:BRG = {
+			create_pop = {
+				culture = burgundian
+				size = 9779
+			}
+			create_pop = {
+				culture = afro_antillean
+				size = 2018
+				religion = protestant
+			}
+			create_pop = {
+				culture = afro_antillean
+				size = 79993
+				religion = protestant
+			}
+		}
+		region_state:SCA = {
+			create_pop = {
+				culture = scandinavian
+				size = 15616
+			}
+			create_pop = {
+				culture = afro_germanic
+				size = 23155
+			}
+			create_pop = {
+				culture = afro_germanic
+				size = 99549
+			}
+		}
+	}
+	
+	#Rohnnst
+	s:STATE_ROHNNST = {
+		region_state:RHN = {
+			create_pop = {
+				culture = rohnnst
+				size = 68361
+				religion = protestant
+			}
+			create_pop = {
+				culture = rohnnst
+				size = 68360
+				religion = mahayana
+			}
+			create_pop = {
+				culture = cree
+				size = 8291
+			}
+		}
+	}
+	s:STATE_MEHTI = {
+		region_state:RHN = {
+			create_pop = {
+				culture = rohnnst
+				size = 40969
+				religion = protestant
+			}
+			create_pop = {
+				culture = rohnnst
+				size = 40969
+				religion = mahayana
+			}
+			create_pop = {
+				culture = cree
+				size = 18283
+			}
+		}
+	}
+	
+	#Decentralized
+	s:STATE_YICHENG = {
+		region_state:UTE = {
+			create_pop = {
+				culture = qingqiuan
+				religion = taiping
+				size = 8000
+			}
+			create_pop = {
+				culture = paiute
+				size = 23408
+			}
+			create_pop = {
+				culture = navajo
+				size = 11792
+			}
+		}
+	}
+	s:STATE_BAIZEHU = {
+		region_state:ATB = {
+			create_pop = {
+				culture = athabaskan
+				size = 18998
+			}
+			create_pop = {
+				culture = cree
+				size = 9281
+			}
+		}
+	}
+	s:STATE_WENYUAN = {
+		region_state:BLF = {
+			create_pop = {
+				culture = plains_algonquian
+				size = 20173
+			}
+			create_pop = {
+				culture = cree
+				size = 7182
+			}
+		}
+	}
+	s:STATE_KARIBJORNIA = {
+		region_state:ANI = {
+			create_pop = {
+				culture = cree
+				size = 20033
+			}
+			create_pop = {
+				culture = rohnnst
+				size = 12058
+			}
+			create_pop = {
+				culture = inuit
+				size = 7975
+			}
+		}
+	}
+	s:STATE_ODENSMARK = {
+		region_state:ANI = {
+			create_pop = {
+				culture = inuit
+				size = 500
+			}
+		}
+		
+	}
+	s:STATE_JINSHAN = {
+		region_state:NVJ = {
+			create_pop = {
+				culture = paiute
+				size = 4898
+			}
+			create_pop = {
+				culture = navajo
+				size = 5510
+			}
+			create_pop = {
+				culture = lusitanian
+				size = 1291
+			}
+			create_pop = {
+				culture = qingqiuan
+				size = 1092
+			}
+		}
+	}
+	s:STATE_OSAGERIE = {
+		region_state:PLA = {
+			create_pop = {
+				culture = siouan
+				size = 43711
+			}
+			create_pop = {
+				culture = cadien
+				size = 9821
+			}
+		}
+	}
+	s:STATE_AIOUEZ= {
+		region_state:IOW = {
+			create_pop = {
+				culture = dakota
+				size = 41031
+			}
+			create_pop = { 
+				culture = siouan
+				size = 4009
+			}
+		}
+	}
+	s:STATE_OUISKONSIN = {
+		region_state:IOW = {
+			create_pop = {
+				culture = cadien
+				size = 4273
+			}
+			create_pop = {
+				culture = dakota
+				size = 44782
+			}
+		}
+		
+	}
+	s:STATE_COMANCHERIE = {	
+		region_state:COM = {
+			create_pop = { 
+				culture = comanche
+				size = 56184
+			}
+		}
+	}
+	s:STATE_APACHERIA = {	
+		region_state:COM = {
+			create_pop = {
+				culture = apache
+				size = 107104
+			}
+		}
+	}
+	s:STATE_TERRES_ROUGES = {
+		region_state:BLF = {
+			create_pop = {
+				culture = dakota
+				size = 36743
+			}
+			create_pop = {
+				culture = plains_algonquian
+				size = 3461
+			}
+		}
+	}
+	s:STATE_NEBRASKIER = {
+		region_state:ARP = {
+			create_pop = {
+				culture = dakota
+				size = 28194
+			}
+		}
+	}
+}

@@ -1,0 +1,72 @@
+﻿CHARACTERS = {
+	c:SCA = {
+		create_character = {
+			historical = yes
+			first_name = Christian
+			last_name = Stewart
+			ruler = yes
+			noble = yes
+			birth_date = 1793.1.26
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_royalist
+			traits = {
+				ambitious
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		#Temporarily removed this guy as he's canonically not real, no i am not shitposting
+		#create_character = { 
+		#	historical = yes
+		#	first_name = Jan
+		#	last_name = Stewart
+		#	heir = yes
+		#	noble = yes
+		#	birth_date = 1799.7.4
+		#	interest_group = ig_petty_bourgeoisie
+		#	ideology = ideology_moderate
+		#	traits = {
+		#		romantic
+		#	}
+		#}
+		
+		create_character = {
+			historical = yes
+			first_name = Charles-Joseph
+			last_name = de_Fris
+			is_agitator = yes
+			culture = cu:burgundian
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_reformer
+
+			birth_date = 1800.11.24
+			traits = {
+				demagogue
+			}
+			on_created = {
+					exile_character = yes
+					
+				}
+		}
+		create_character = {
+			historical = yes
+			first_name = Hans
+			last_name = "Johanneson"
+			is_agitator = yes
+			culture = cu:finnish
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_reformer
+
+			birth_date = 1800.11.24
+			traits = {
+				inspirational_orator
+			}
+			on_created = {
+					exile_character = yes
+					
+				}
+		}
+		
+	}
+}

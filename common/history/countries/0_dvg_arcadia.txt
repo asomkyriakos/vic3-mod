@@ -1,0 +1,920 @@
+﻿COUNTRIES = {
+	
+	c:CNF = { #Belgium
+		effect_starting_technology_tier_1_tech = yes
+
+		add_technology_researched = joint_stock_companies
+		add_technology_researched = egalitarianism
+		add_technology_researched = power_of_the_purse
+		add_technology_researched = screw_frigate
+		
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_census_voting
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_elected_bureaucrats
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_anti_strike_laws
+
+		add_taxed_goods = g:liquor
+		add_taxed_goods = g:wine
+		add_taxed_goods = g:tobacco
+		
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 2
+		}
+
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 2
+		}
+		
+		set_ruling_interest_groups = {
+			ig_industrialists
+			ig_petty_bourgeoisie
+		}
+
+		ig:ig_devout = {
+			set_interest_group_name = ig_evangelical_church
+		}
+
+		ig:ig_industrialists = {
+            set_interest_group_name = ig_BEL_rooster
+        }
+		ig:ig_petty_bourgeoisie = {
+            set_interest_group_name = ig_BEL_brabantians
+        }
+        ig:ig_intelligentsia = {
+            set_interest_group_name = ig_BEL_arcadia_new
+        }  
+		s:STATE_SANACOMIE.region_state:CNF = {
+			set_state_name = STATE_SANACOMIE_septiman
+		}
+
+        ig:ig_landowners = {
+			set_interest_group_name = ig_BEL_lion
+			add_ideology = ideology_isolationist
+			remove_ideology = ideology_patriarchal
+        }
+
+		trigger_event = {
+			id = dvg_belgium.1
+		}
+		
+		#add_modifier = {
+        #    name = neutrality
+        #    months = 24
+        #}
+	}
+	c:CPH = { #Philippine
+		effect_starting_technology_tier_1_tech = yes
+
+		add_technology_researched = joint_stock_companies
+		add_technology_researched = egalitarianism
+		
+		effect_starting_politics_liberal = yes
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_landed_voting
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_anti_strike_laws
+
+		set_ruling_interest_groups = {
+			ig_landowners
+		}
+		ig:ig_devout = { 
+			set_interest_group_name = ig_evangelical_church
+		}
+	}
+	c:CCA = { #Caroline
+		effect_starting_technology_tier_1_tech = yes
+
+		add_technology_researched = joint_stock_companies
+		add_technology_researched = egalitarianism
+		
+		effect_starting_politics_liberal = yes
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_landed_voting
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_anti_strike_laws
+
+		set_ruling_interest_groups = {
+			ig_landowners
+		}
+		ig:ig_devout = { 
+			set_interest_group_name = ig_evangelical_church
+		}
+	}
+	c:CFS = { #Flandre Superier
+		effect_starting_technology_tier_1_tech = yes
+
+
+		
+		effect_starting_politics_liberal = yes
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_landed_voting
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_anti_strike_laws
+
+		set_ruling_interest_groups = {
+			ig_landowners
+		}
+		ig:ig_devout = { 
+			set_interest_group_name = ig_evangelical_church
+		}
+	}
+	c:CHV = { #Haute Valoise
+		effect_starting_technology_tier_1_tech = yes
+
+		add_technology_researched = intensive_agriculture
+		
+		effect_starting_politics_liberal = yes
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_landed_voting
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_anti_strike_laws
+
+		set_ruling_interest_groups = {
+			ig_landowners
+		}
+		ig:ig_devout = { 
+			set_interest_group_name = ig_evangelical_church
+		}
+	}
+	c:CNL = { #Nouvelle Loraine
+		effect_starting_technology_tier_1_tech = yes
+
+		add_technology_researched = joint_stock_companies
+		add_technology_researched = egalitarianism
+		
+		effect_starting_politics_liberal = yes
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_landed_voting
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_anti_strike_laws
+
+		set_ruling_interest_groups = {
+			ig_landowners
+		}
+		ig:ig_devout = { 
+			set_interest_group_name = ig_evangelical_church
+		}
+	}
+	c:CBV = { #Base Valoise
+		effect_starting_technology_tier_1_tech = yes
+
+		add_technology_researched = intensive_agriculture
+
+		
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_landed_voting
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_anti_strike_laws
+
+		set_ruling_interest_groups = {
+			ig_landowners
+		}
+		ig:ig_devout = { 
+			set_interest_group_name = ig_evangelical_church
+		}
+	}
+	
+	c:VIN = { #Vinland
+		effect_starting_technology_tier_2_tech = yes
+		
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_extraction_economy
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_combination_acts
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}
+		
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 2
+		}
+		add_modifier = {
+			name = dvg_modifier_industrialists_bolstered
+		}
+		set_ruling_interest_groups = {
+			ig_industrialists
+		}
+		ig:ig_devout = {
+			set_interest_group_name = ig_evangelical_church
+		}
+		ig:ig_landowners = {
+			remove_ideology = ideology_patriarchal
+		}
+		ig:ig_industrialists = {
+			add_ideology = ideology_colonialist
+		}
+		ig:ig_intelligentsia = {
+			add_ideology = ideology_vinland_radical
+			remove_ideology = ideology_liberal
+		}
+		ig:ig_petty_bourgeoisie = {
+			remove_ideology = ideology_reactionary
+			add_ideology = ideology_vinland_liberal
+			add_ideology = ideology_laissez_faire
+		}
+		trigger_event = {
+			id = dvg_vinland.1
+		}
+		
+	}
+	
+	c:SKR = { #Skraelingland
+		effect_starting_technology_tier_2_tech = yes
+		
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_landed_voting
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_guild_system
+		
+		set_ruling_interest_groups = {
+			ig_armed_forces
+		}
+		ig:ig_devout = {
+			set_interest_group_name = ig_evangelical_church
+		}
+		
+		ig:ig_industrialists = {
+			add_ideology = ideology_vinland_liberal
+		}
+		ig:ig_intelligentsia = {
+			add_ideology = ideology_vinland_radical
+		}
+		
+		
+		trigger_event = {
+			id = dvg_vinland.3
+		}
+		
+	}
+	
+	c:MSG = { #Masgirland
+		effect_starting_technology_tier_2_tech = yes
+		
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_census_voting
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_elected_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_guild_system
+		
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 2
+		}
+		
+		set_ruling_interest_groups = {
+			ig_devout
+		}
+		ig:ig_devout = {
+			set_interest_group_name = ig_evangelical_church
+		}
+		if = {
+			limit = {
+				has_game_rule = no_breakaway
+			}
+			add_primary_culture = cu:vinlander
+			remove_primary_culture = cu:masgirlander
+			every_scope_pop = {
+				limit = {
+					culture = cu:masgirlander
+				}
+				change_pop_culture = {
+					target = cu:vinlander
+					value = 1.0
+				}
+			}
+			
+		}
+		trigger_event = {
+			id = dvg_vinland.2
+		}
+		
+	}
+	
+	c:PLA = { #Plantagenia
+		effect_starting_technology_tier_2_tech = yes
+		
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_anti_strike_laws
+	
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}
+
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 2
+		}
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 1
+		}
+		
+		set_ruling_interest_groups = {
+			ig_landowners
+		}
+		ig:ig_devout = {
+			set_interest_group_name = ig_jesuits
+			add_ideology = ideology_jesuit
+		}
+		ig:ig_landowners = {
+			set_interest_group_name = ig_planteurs
+		}
+		ig:ig_intelligentsia = {
+			remove_ideology = ideology_republican
+			add_ideology = ideology_egalitarian
+		}
+		ig:ig_rural_folk = {
+			add_ideology = ideology_populist
+		}
+		trigger_event = {
+			id = dvg_plantagenia.1
+		}
+		
+	}
+
+		# Doesnt exist on game start?
+	#c:ARC = { #ARCADIA FEDERATION
+	#	effect_starting_technology_tier_3_tech = yes
+	#	
+	#	activate_law = law_type:law_census_voting
+	#	activate_law = law_type:law_racial_segregation
+	#	activate_law = law_type:law_total_separation
+	#	activate_law = law_type:law_elected_bureaucrats
+	#	activate_law = law_type:law_national_militia
+	#	activate_law = law_type:law_interventionism
+	#	activate_law = law_type:law_protectionism
+	#	activate_law = law_type:law_per_capita_based_taxation
+	#	activate_law = law_type:law_local_police
+	#	activate_law = law_type:law_public_schools
+	#	activate_law = law_type:law_right_of_assembly
+	#	activate_law = law_type:law_legacy_slavery
+	#	activate_law = law_type:law_homesteading
+	#	activate_law = law_type:law_anti_strike_laws
+	#	
+	#	set_institution_investment_level = {
+	#		institution = institution_colonial_affairs
+	#		level = 2
+	#	}
+	#
+	#	set_institution_investment_level = {
+	#		institution = institution_police
+	#		level = 2
+	#	}
+	#	set_institution_investment_level = {
+	#		institution = institution_schools
+	#		level = 1
+	#	}
+	#		add_journal_entry = {
+	#		type = je_code_indigenat
+	#	}
+	#		add_journal_entry = {
+	#		type = je_trans_continental_railway
+	#	}
+	#		add_journal_entry = {
+	#		type = je_seminole_wars
+	#	}
+	#	
+	#	set_ruling_interest_groups = {
+	#		ig_landowners
+	#	}
+	#	ig:ig_devout = {
+	#		set_interest_group_name = ig_jesuits
+	#		add_ideology = ideology_jesuit
+	#	}
+	#	ig:ig_landowners = {
+	#		set_interest_group_name = ig_planteurs
+	#	}
+	#	ig:ig_intelligentsia = {
+	#		remove_ideology = ideology_republican
+	#		add_ideology = ideology_egalitarian
+	#	}
+	#	ig:ig_rural_folk = {
+	#		add_ideology = ideology_populist
+	#	}
+	#	trigger_event = {
+	#		id = dvg_arcadia.1
+	#	}
+	#}
+
+	c:CHE = { #Cherokee
+		effect_starting_technology_tier_2_tech = yes
+		
+		activate_law = law_type:law_census_voting
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_guild_system
+
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 2
+		}
+		
+		set_ruling_interest_groups = {
+			ig_landowners
+		}
+		ig:ig_devout = {
+			set_interest_group_name = ig_catholic_church
+		}
+		
+	}
+	
+	c:QIN = { #Qingqiu
+		effect_starting_technology_tier_3_tech = yes
+		add_technology_researched = sericulture
+		
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_guild_system
+		
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}
+		
+		ig:ig_petty_bourgeoisie = {
+			add_ruling_interest_group = yes
+			set_interest_group_name = ig_sanbao_league
+		}
+		
+		ig:ig_devout = {
+			set_interest_group_name = ig_mahayana_monks
+			remove_ideology = ideology_moralist
+			add_ideology = ideology_confucian
+		}
+		
+		
+		set_ruling_interest_groups = {
+			ig_landowners
+		}
+		ig:ig_landowners = {
+			remove_ideology = ideology_paternalistic
+			add_ideology = ideology_republican_paternalistic
+		}
+		ig:ig_intelligentsia = {
+			remove_ideology = ideology_anti_clerical
+			add_ideology = ideology_mengzi
+			set_interest_group_name = ig_literati
+		}
+		
+		trigger_event = {
+			id = qingqiu_federation.1
+		}
+		add_modifier = {
+			name = qin_federal_sys
+			months = -1 
+		}
+		#add_modifier = {
+		#	name = dvg_qingqiu_leagues
+		#	months = -1 
+		#}
+		
+		add_journal_entry = { type = je_qingqiu_migration }
+		#add_journal_entry = { type = je_qingqiu_the_matter_of_the_leages }
+	}
+	
+	c:RHN = { #Rohnnst
+		effect_starting_technology_tier_4_tech = yes
+		add_technology_researched = empiricism
+		
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_census_voting
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_tenant_farmers
+		#activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_guild_system
+
+		set_ruling_interest_groups = {
+			ig_devout
+		}
+		ig:ig_devout = {
+			set_interest_group_name = ig_evangelical_church
+		}
+
+	}
+
+	c:BLF = { #Blackfoot
+		effect_starting_technology_tier_4_tech = yes
+		add_technology_researched = empiricism
+		
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_tenant_farmers
+		#activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_guild_system
+
+		set_ruling_interest_groups = {
+			ig_devout
+		}
+		ig:ig_devout = {
+			set_interest_group_name = ig_mahayana_monks
+		}
+	}
+	
+	c:GCO = { #Gran Colombia
+		effect_starting_technology_tier_3_tech = yes
+		
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_combination_acts
+		
+		set_ruling_interest_groups = {
+			ig_landowners
+			ig_armed_forces
+			ig_intelligentsia
+		}
+		ig:ig_devout = {
+			set_interest_group_name = ig_catholic_church
+		}
+		ig:ig_armed_forces = {
+			add_ideology = ideology_caudillismo
+		}
+		ig:ig_landowners = {
+			remove_ideology = ideology_paternalistic
+			add_ideology = ideology_caudillismo
+		}
+		trigger_event = {
+			id = dvg_gran_colombia.1
+		}
+		add_modifier = { #for any starting modifiers, suggest starting event with modifiers in tooltip to let players know
+			name = dvg_spanish_independence
+			months = 730 #in days -1 is permanent
+		}
+		change_relations = {
+			country = c:QUI
+			value = 50
+		}
+		
+	}
+
+	c:KKN = { #Hokkaigan
+		effect_starting_technology_tier_3_tech = yes
+	
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_hereditary_bureaucrats
+		activate_law = law_type:law_extraction_economy
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_tenant_farmers
+
+		
+		set_ruling_interest_groups = {
+			ig_landowners
+			ig_industrialists
+		}
+		ig:ig_devout = {
+			set_interest_group_name = ig_shinto_monks
+			remove_ideology = ideology_moralist
+			add_ideology = ideology_shinto_moralist
+		}
+		ig:ig_industrialists = {
+			add_ideology = ideology_colonialist
+		}
+		add_modifier = {
+			name = dvg_modifier_industrialists_bolstered
+			months = 240
+			is_decaying = yes
+		}
+	}
+
+	c:ATH = { #Athesia
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_landed_voting
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_guild_system
+
+		set_ruling_interest_groups = {
+			ig_landowners
+		}
+		ig:ig_devout = { 
+			set_interest_group_name = ig_catholic_church 
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_game_rule = breakaway
+				}
+			}
+			add_primary_culture = cu:venetian
+			remove_primary_culture = cu:athesian
+
+
+			every_scope_pop = {
+				limit = {
+					culture = cu:athesian
+				}
+				change_pop_culture = {
+					target = cu:venetian
+					value = 1.0
+				}
+			}
+
+		add_journal_entry = {
+			type = je_seminole_wars
+			}
+		}
+		ig:ig_industrialists = {
+			add_ideology = ideology_colonialist
+		}
+		
+	}
+	
+	c:SFJ = { #Sydoe
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_landed_voting
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_guild_system
+
+		set_ruling_interest_groups = {
+			ig_landowners
+		}
+		ig:ig_devout = { 
+			set_interest_group_name = ig_evangelical_church
+		}
+	}
+	
+	c:CUB = { #Kuba
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_landed_voting
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_guild_system
+
+		set_ruling_interest_groups = {
+			ig_landowners
+		}
+		ig:ig_devout = { 
+			set_interest_group_name = ig_catholic_church 
+		}
+		trigger_event = { id = dvg_cuba.1 days = 1 }
+	}
+	
+	c:FGH = { #Hawaii
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_guild_system
+		
+		set_ruling_interest_groups = {
+			ig_landowners
+		}
+		ig:ig_landowners = {
+			set_interest_group_name = ig_alii
+		}
+		ig:ig_rural_folk = {
+			set_interest_group_name = ig_maka_ainana
+			add_ideology = ideology_sovereignist
+			remove_ideology = ideology_isolationist
+		}
+		ig:ig_devout = {
+			add_ideology = ideology_confucian
+		}
+		ig:ig_intelligentsia = {
+			remove_ideology = ideology_anti_clerical
+			add_ideology = ideology_mengzi
+			set_interest_group_name = ig_literati
+		}		
+		trigger_event = {
+			id = dvg_hawaii.1
+		}
+	}
+	
+	c:ANI = { #Anishinabe
+		effect_starting_technology_tier_6_tech = yes
+		effect_native_conscription_10 = yes
+		effect_starting_politics_traditional = yes
+	}
+	
+	c:PUE = { #Pueblo
+		effect_starting_technology_tier_6_tech = yes
+		effect_native_conscription_10 = yes
+		effect_starting_politics_traditional = yes
+	}
+	
+	c:ATB = { #Athabaska
+		effect_starting_technology_tier_7_tech = yes
+		effect_native_conscription_10 = yes
+		effect_starting_politics_traditional = yes
+	}
+	
+	c:UTE = { #Ute
+		effect_starting_technology_tier_3_tech = yes
+		add_technology_researched = sericulture
+		effect_native_conscription_10 = yes
+		effect_starting_politics_traditional = yes
+	}
+	
+	c:XSU = { #Paiute
+		effect_starting_technology_tier_3_tech = yes
+		add_technology_researched = sericulture
+		effect_native_conscription_10 = yes
+		effect_starting_politics_traditional = yes
+	}
+	
+	#Doesnt exist at game start?
+	#c:PWN = { #Pawnee
+	#	effect_starting_technology_tier_6_tech = yes
+	#	effect_native_conscription_10 = yes
+	#	effect_starting_politics_traditional = yes
+	#}
+	
+	c:MIS = { #Missouria
+		effect_starting_technology_tier_6_tech = yes
+		effect_native_conscription_10 = yes
+		effect_starting_politics_traditional = yes
+	}
+	
+	c:IOW = { #Iowa
+		effect_starting_technology_tier_6_tech = yes
+		effect_native_conscription_10 = yes
+		effect_starting_politics_traditional = yes
+	}
+	
+	c:COM = { #Comanche
+		effect_starting_technology_tier_5_tech = yes
+		effect_native_conscription_10 = yes
+		effect_starting_politics_traditional = yes
+	}
+	
+	#Doesnt exist at game start?
+	#c:DKT = { #Dakota
+	#	effect_starting_technology_tier_6_tech = yes
+	#	effect_native_conscription_10 = yes
+	#	effect_starting_politics_traditional = yes
+	#}
+	
+	#Doesnt exist at game start?
+	# c:LKT = { #Lakota
+		# effect_starting_technology_tier_6_tech = yes
+		# effect_native_conscription_10 = yes
+		# effect_starting_politics_traditional = yes
+	# }
+	
+	c:NVJ = { #Navajo
+		effect_starting_technology_tier_3_tech = yes
+		add_technology_researched = sericulture
+		effect_native_conscription_10 = yes
+		effect_starting_politics_traditional = yes
+	}
+	
+	c:ARP = { #Arapaho
+		effect_starting_technology_tier_6_tech = yes
+		effect_native_conscription_10 = yes
+		effect_starting_politics_traditional = yes
+	}
+	
+	#c:ABS = { #Absaroka
+	#	effect_starting_technology_tier_6_tech = yes
+	#	effect_native_conscription_10 = yes
+	#	effect_starting_politics_traditional = yes
+	#}
+	
+	#Doesnt exist at game start?
+	c:BLF = { #Niitsitapi
+		effect_starting_technology_tier_6_tech = yes
+		effect_native_conscription_10 = yes
+		effect_starting_politics_traditional = yes
+	}
+	
+	c:NZP = { #Nez Perce
+		effect_starting_technology_tier_6_tech = yes
+		effect_native_conscription_10 = yes
+		effect_starting_politics_traditional = yes
+	}
+	c:SML = { #Seminole
+		effect_starting_technology_tier_6_tech = yes
+		effect_native_conscription_10 = yes
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+	}
+}

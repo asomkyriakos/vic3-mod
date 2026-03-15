@@ -1,0 +1,668 @@
+﻿POPS = {
+	#Mianjin
+	s:STATE_ZHENG_HE = {
+		region_state:MJN = {
+			create_pop = {
+				culture = zhourao
+				size = 514090
+				religion = mahayana
+			}
+			create_pop = {
+				culture = zhourao
+				size = 171363
+				religion = catholic
+			}
+			create_pop = {
+				culture = zhourao
+				size = 171363
+				religion = confucian
+			}
+			create_pop = {
+				culture = yue
+				size = 1500
+				religion = catholic
+			}
+			
+			create_pop = {
+				culture = aborigine
+				size = 85200
+				religion = mahayana
+			}
+		}
+	}
+	s:STATE_WEIHUAI = {
+		region_state:MJN = {
+			create_pop = {
+				culture = zhourao
+				size = 675000
+				religion = mahayana
+			}
+			create_pop = {
+				culture = zhourao
+				size = 405000
+				religion = confucian
+			}
+			create_pop = {
+				culture = zhourao
+				size = 320000
+				religion = catholic
+			}
+			create_pop = {
+				culture = aborigine
+				size = 235734
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han
+				size = 2000
+			}
+		}
+	}
+	#Yulao
+	s:STATE_QINGSHUI = {
+		region_state:YLO = {
+			create_pop = {
+				culture = zhourao
+				size = 668448
+				religion = mahayana
+			}
+			create_pop = {
+				culture = zhourao
+				size = 445632
+				religion = confucian
+			}
+			create_pop = {
+				culture = zhuang
+				size = 1000
+			}
+			create_pop = {
+				culture = han
+				size = 1500
+			}
+			create_pop = {
+				culture = aborigine
+				size = 249305
+			}
+			create_pop = {
+				culture = aborigine_chinese
+				size = 35615
+			}
+		}
+	}
+	s:STATE_GUANSHAN = {
+		region_state:YLO = {
+			create_pop = {
+				culture = zhourao
+				size = 460880
+				religion = mahayana
+			}
+			create_pop = {
+				culture = zhourao
+				size = 197520
+				religion = confucian
+			}
+			create_pop = {
+				culture = aborigine
+				size = 123900
+			}
+			create_pop = {
+				culture = aborigine_chinese
+				size = 17700
+			}
+			create_pop = {
+				culture = han
+				size = 1500
+			}
+		}
+	}
+	s:STATE_XINXIANG = {
+		region_state:YLO = {
+			create_pop = {
+				culture = zhourao
+				size = 538080
+				religion = mahayana
+			}
+			create_pop = {
+				culture = zhourao
+				size = 358720
+				religion = confucian
+			}
+			create_pop = {
+				culture = aborigine
+				size = 103000
+			}
+			create_pop = {
+				culture = aborigine_chinese
+				size = 200
+			}
+			create_pop = {
+				culture = han
+				size = 1500
+			}
+		}
+	}
+	
+	#Decentralized
+	s:STATE_PITJANTJAJARA = {
+		region_state:PJT = {
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 7780
+			}
+		}
+	}
+	s:STATE_YONGLING = {
+		region_state:KOO = {
+			create_pop = {
+				culture = aborigine
+				religion = mahayana
+				size = 31854
+			}
+			create_pop = {
+				culture = zhourao
+				size = 86004
+			}
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 66246
+			}
+		}
+		region_state:YLO = {
+			create_pop = {
+				culture = aborigine
+				religion = mahayana
+				size = 5854
+			}
+			create_pop = {
+				culture = zhourao
+				size = 16004
+			}
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 6246
+			}
+		}
+	}
+	s:STATE_COOMALONG = {
+		region_state:YMT = {
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 10350
+			}
+			create_pop = {
+				culture = aborigine
+				religion = protestant
+				size = 1390
+			}
+		}
+		region_state:NVZ = {
+			create_pop = {
+				culture = javan
+				size = 66900
+			}
+			create_pop = {
+				culture = burgundian
+				size = 3928
+			}
+			create_pop = {
+				culture = verlander
+				size = 60
+			}
+		}
+	}
+	s:STATE_TAITUNG = {
+		region_state:WIR = {
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 43320
+			}
+			create_pop = {
+				culture = aborigine
+				religion = mahayana
+				size = 24430
+			}
+		}
+		region_state:MJN = {
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 3320
+			}
+			create_pop = {
+				culture = aborigine_chinese
+				size = 4430
+			}
+			create_pop = {
+				culture = zhourao
+				size = 22640
+			}
+		}
+	}
+	s:STATE_YONGJIA = {
+		region_state:KAU = {
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 20302
+			}
+			create_pop = {
+				culture = aborigine
+				religion = mahayana
+				size = 7320
+			}
+		}
+	}
+	s:STATE_OODNATTA = {
+		region_state:NUN = {
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 11360
+			}
+		}
+	}
+	s:STATE_NOONGAR = {
+		region_state:NNG = {
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 81283
+			}
+			create_pop = {
+				culture = aborigine
+				religion = protestant
+				size = 21041
+			}
+		}
+		region_state:NVZ = {
+			create_pop = {
+				culture = verlander
+				size = 4560
+			}
+			if = {
+				limit = {
+					has_game_rule = breakaway
+				}
+				create_pop = {
+					culture = aborigine_french
+					religion = protestant
+					size = 1242
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_game_rule = breakaway
+					}
+				}
+				create_pop = {
+					culture = aborigine_french
+					religion = protestant
+					size = 1242
+				}
+			}
+			
+		}
+	}
+	s:STATE_YOLNGU = {
+		region_state:YLN = {
+			if = {
+				limit = {
+					has_game_rule = breakaway
+				}
+				create_pop = {
+					culture = aborigine_malay
+					religion = sunni
+					size = 48300
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_game_rule = breakaway
+					}
+				}
+				create_pop = {
+					culture = aborigine
+					religion = sunni
+					size = 48300
+				}
+			}
+			create_pop = {
+				culture = aborigine
+				religion = sunni
+				size = 48300
+			}
+			create_pop = {
+				culture = moluccan
+				size = 1240
+			}
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 3450
+			}
+		}
+		region_state:GWG = { 
+		if = {
+			limit = {
+				has_game_rule = breakaway
+			}
+			create_pop = {
+				culture = aborigine_malay
+				religion = sunni
+				size = 34550
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_game_rule = breakaway
+				}
+			}
+			create_pop = {
+				culture = aborigine
+				religion = sunni
+				size = 34550
+			}
+		}
+			create_pop = {
+				culture = moluccan
+				size = 670
+			}
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 11050
+			}
+		}
+		region_state:NGL = {  
+		if = {
+			limit = {
+				has_game_rule = breakaway
+			}
+			create_pop = {
+				culture = aborigine_malay
+				religion = sunni
+				size = 34650
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_game_rule = breakaway
+				}
+			}
+			create_pop = {
+				culture = aborigine
+				religion = sunni
+				size = 34650
+			}
+		}
+			create_pop = {
+				culture = moluccan
+				size = 1850
+			}
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 1320
+			}
+		}
+		region_state:GRJ = {
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 22250
+			}
+		}
+		region_state:MKS = {
+			create_pop = {
+				culture = moluccan
+				size = 14542
+			}
+			create_pop = {
+				culture = aborigine
+				religion = sunni
+				size = 2250
+			}
+		}
+		region_state:DUA = {
+			create_pop = {
+				culture = aborigine
+				religion = sunni
+				size = 3000
+			}
+			create_pop = {
+				culture = anglois
+				size = 800
+			}
+		}
+	}
+	#Zhushan
+	s:STATE_WENCHENG = {
+		region_state:ZSA = { 
+			create_pop = {
+				culture = aborigine
+				religion = sunni
+				size = 87660
+			}
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 31380
+			}
+			create_pop = {
+				culture = moluccan
+				size = 35480
+			}
+			create_pop = {
+				culture = zhourao
+				size = 100000
+				religion = confucian
+			}
+			create_pop = {
+				culture = zhourao
+				size = 60000
+				religion = sunni
+			}
+			create_pop = {
+				culture = zhourao
+				size = 40000
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han
+				size = 72640
+				religion = sunni
+			}
+		}
+		region_state:YAL = {
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 25920
+			}
+			create_pop = {
+				culture = aborigine
+				religion = sunni
+				size = 77890
+			}
+		}
+	}
+	s:STATE_JINZHOU = {
+		region_state:ZSA = {
+			create_pop = {
+				culture = aborigine
+				religion = sunni
+				size = 95334
+			}
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 8666
+			}
+			create_pop = {
+				culture = moluccan
+				size = 23040
+			}
+			create_pop = {
+				culture = zhourao
+				religion = sunni
+				size = 540728
+			}
+			create_pop = {
+				culture = zhourao
+				size = 94072
+			}
+		}
+		region_state:JAP = {
+			create_pop = {
+				culture = zhourao
+				size = 3600
+				religion = mahayana
+			}
+			create_pop = {
+				culture = zhourao
+				size = 1200
+				religion = sunni
+			}
+			create_pop = {
+				culture = zhourao
+				size = 1200
+				religion = confucian
+			}
+			create_pop = {
+				culture = japanese
+				size = 2000
+			}
+			create_pop = {
+				culture = dayak
+				size = 2000
+			}
+		}
+	}
+	s:STATE_WEIZHOU = {
+		region_state:ZSA = {
+			create_pop = {
+				culture = zhourao
+				religion = sunni
+				size = 508000
+			}
+			create_pop = {
+				culture = zhourao
+				size = 252000
+			}
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 20000
+			}
+			create_pop = {
+				culture = aborigine
+				religion = sunni
+				size = 120000
+			}
+		}
+	}
+	
+	#Aotearoa
+	s:STATE_MOTU_PARI = {
+		region_state:TNU = {
+			create_pop = {
+				culture = maori
+				size = 176800
+			}
+			create_pop = {
+				culture = maori
+				size = 9800
+				religion = mahayana
+			}
+			create_pop = {
+				culture = maori
+				size = 3200
+				religion = catholic
+			}
+		}
+		region_state:QQQ = {
+			create_pop = {
+				culture = maori
+				size = 8300
+				religion = mahayana
+			}
+			create_pop = {
+				culture = zhourao
+				size = 15000
+				religion = mahayana
+			}
+			create_pop = {
+				culture = zhourao
+				size = 5000
+				religion = catholic
+			}
+			create_pop = {
+				culture = zhourao
+				size = 5000
+				religion = confucian
+			}
+			create_pop = {
+				culture = han
+				size = 200
+			}
+		}
+	}
+	
+	#Scandinavia
+	s:STATE_MOTU_TIMU = {
+		region_state:NTU = {
+			create_pop = {
+				culture = maori
+				size = 11600
+			}
+		}
+		region_state:NTO = {
+			create_pop = {
+				culture = maori
+				size = 16380
+			}
+		}
+		region_state:TNU = {
+			create_pop = {
+				culture = maori
+				size = 2000
+			}
+		}
+		region_state:VRG = {
+			create_pop = {
+				culture = ny_sjaellander
+				size = 1638
+			}
+			create_pop = {
+				culture = maori
+				size = 380
+			}
+		}
+	}
+	s:STATE_PARLEVAR = {
+		region_state:VRG = {
+			create_pop = {
+				culture = ny_sjaellander
+				size = 14558
+			}
+			create_pop = {
+				culture = aborigine
+				religion = animist
+				size = 30482
+			}
+			create_pop = {
+				culture = scandinavian
+				size = 2520
+			}
+		}
+	}
+}

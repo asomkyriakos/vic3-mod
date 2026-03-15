@@ -1,0 +1,118 @@
+﻿restore_order_korea = {
+	is_shown = {
+		exists = c:JAP
+		c:JAP = ROOT
+		NOT = { has_variable = korea_restore_order }
+	}
+
+    possible = {
+		has_technology_researched = nationalism
+	}
+
+    when_taken = {
+        if = {
+			limit = {
+				owns_entire_state_region = STATE_BUSAN
+				owns_entire_state_region = STATE_YANGHO
+				owns_entire_state_region = STATE_SEOUL
+				owns_entire_state_region = STATE_PYONGYANG
+				owns_entire_state_region = STATE_SARIWON
+			}
+			trigger_event = { id = dvg_manifest_destiny_japan.1 }
+		}
+		else = {
+			add_journal_entry = {
+				type = je_restore_order_korea
+			}
+		}
+		ig:ig_landowners = {
+			add_modifier = {
+				name = ig_manifest_destiny
+				days = normal_modifier_time
+			}
+		}
+		ig:ig_intelligentsia = {
+			add_modifier = {
+				name = ig_manifest_destiny
+				days = normal_modifier_time
+				multiplier = -1
+			}
+		}
+		# Add Claims
+		s:STATE_BUSAN = { 
+			add_claim = ROOT
+		}
+		s:STATE_YANGHO = { 
+			add_claim = ROOT
+		}
+		s:STATE_SEOUL = { 
+			add_claim = ROOT
+		}
+        s:STATE_PYONGYANG = { 
+			add_claim = ROOT 
+		}
+        s:STATE_SARIWON = { 
+			add_claim = ROOT
+		}
+		set_variable = korea_restore_order
+    }
+
+	ai_chance = {
+		value = 100
+	}
+}
+
+dvg_expand_kaigan = {
+	is_shown = {
+		any_primary_culture = {
+			has_discrimination_trait = heritage_japanese
+		}
+	}
+
+    possible = {
+
+		NOT = {
+			has_law = law_type:law_no_colonial_affairs
+		}
+		any_scope_state = {
+			is_in_geographic_region = geographic_region_north_america
+			NOT = {
+				state_region = {
+					is_homeland = cu:kaiganese
+				}
+			}
+			any_neighbouring_state = {
+				state_region = {
+					is_homeland = cu:kaiganese
+				}
+			}
+		}
+	}
+
+    when_taken = {
+       every_scope_state = {
+			limit = {
+				is_in_geographic_region = geographic_region_north_america
+				NOT = {
+				state_region = {
+					is_homeland = cu:kaiganese
+				}
+				}
+				any_neighbouring_state = {
+				state_region = {
+					is_homeland = cu:kaiganese
+				}
+				}
+
+			}
+			state_region = {
+				add_homeland = cu:kaiganese
+			}
+	   }
+	  
+    }
+
+	ai_chance = {
+		value = 100
+	}
+}

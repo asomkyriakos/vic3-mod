@@ -1,0 +1,26 @@
+﻿aramaic = {
+}
+occitanophone = {
+}
+gallo_romance = {
+}
+kipchak = {
+}
+kirim = {
+}
+krymchak = {
+}
+kazani = {
+}
+bashkir = {
+}
+xacitarxani = {
+}
+sibir = {
+}
+sango = {
+}
+african_settler = {
+}
+hindustani = {
+}

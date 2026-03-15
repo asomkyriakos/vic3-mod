@@ -1,0 +1,80 @@
+﻿dua_integration_anglois_button = {
+    name = "dua_anglois_button"
+    desc = "dua_anglois_button_desc"
+
+    visible = {
+        owner = { 
+            NOT = { has_variable = dua_integration_freeze } 
+        }
+    }
+
+    possible = {
+        NOT = {
+            has_modifier = decision_cooldown
+        }
+    }
+    effect = {
+        
+    }
+}
+
+dua_total_revolution_button = {
+    name = "dua_total_revolution_button"
+    desc = "dua_total_revolution_button_desc"
+
+    possible = {
+        always = no
+    }
+
+    effect = {
+        
+    }
+}
+
+dua_integration_french_button = {
+    name = "dua_french_button"
+    desc = "dua_french_button_desc"
+
+    visible = {
+        owner = { 
+            NOT = { has_variable = dua_integration_freeze } 
+        }
+    }
+
+    possible = {
+        NOT = {
+            has_modifier = decision_cooldown
+        }
+    }
+    effect = {
+        change_variable = { name = french_progress_from_effects add = 0.5 }
+        add_modifier = {
+            name = decision_cooldown
+            months = 12
+        }
+    }
+}
+
+dua_integration_english_button = {
+    name = "dua_english_button"
+    desc = "dua_english_button_desc"
+
+    visible = {
+        owner = { 
+            NOT = { has_variable = dua_integration_freeze } 
+        }
+    }
+
+    possible = {
+        NOT = {
+            has_modifier = decision_cooldown
+        }
+    }
+    effect = {
+        change_variable = { name = english_progress_from_effects add = 0.5 }
+        add_modifier = {
+            name = decision_cooldown
+            months = 12
+        }
+    }
+}
