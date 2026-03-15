@@ -1,4 +1,4 @@
-﻿STATE_BIHAR = {
+STATE_BIHAR = {
     id = 456
     subsistence_building = building_subsistence_rice_farm
     provinces = { x01F1CD x04D4E4 x172E64 x1C310A x21B060 x2DDA9A x3521C5 x3DDDBF x48B87D x590FA7 x5F1E9B x5FCB1C x7FC191 x8079C0 x8B9115 x93C09D x951929 x9B7C7A xAEDA4D xD5188D xE3326D xF4E206 xF767B3 }
@@ -10,7 +10,7 @@
     arable_land = 400
     arable_resources = { building_rice_farm building_livestock_ranch building_cotton_plantation building_dye_plantation building_opium_plantation building_tobacco_plantation building_sugar_plantation building_silk_plantation }
     capped_resources = {
-        building_logging_camp = 20
+        building_logging_camp = 30
     }
 }
 STATE_NORTH_BENGAL = {
@@ -25,8 +25,8 @@ STATE_NORTH_BENGAL = {
     arable_land = 325
     arable_resources = { building_rice_farm building_livestock_ranch building_cotton_plantation building_silk_plantation building_dye_plantation building_opium_plantation building_tea_plantation building_tobacco_plantation }
     capped_resources = {
-        building_coal_mine = 3
-        building_logging_camp = 50
+        building_coal_mine = 10
+        building_logging_camp = 60
     }
 }
 STATE_ASSAM = {
@@ -42,7 +42,7 @@ STATE_ASSAM = {
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_opium_plantation building_tea_plantation building_silk_plantation }
     capped_resources = {
         building_coal_mine = 48
-        building_logging_camp = 20
+        building_logging_camp = 30
     }
     resource = {
         type = ""
@@ -62,8 +62,8 @@ STATE_DELHI = {
     arable_resources = { building_wheat_farm building_livestock_ranch building_cotton_plantation building_dye_plantation building_opium_plantation building_tobacco_plantation }
     capped_resources = {
         #building_monuments = 1
-        building_iron_mine = 45
-        building_logging_camp = 30
+        building_iron_mine = 55
+        building_logging_camp = 40
     }
 }
 STATE_AWADH = {
@@ -78,7 +78,7 @@ STATE_AWADH = {
     arable_land = 650
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_opium_plantation building_tobacco_plantation building_silk_plantation }
     capped_resources = {
-        building_logging_camp = 34
+        building_logging_camp = 45
     }
 }
 STATE_GUJARAT = {
@@ -95,7 +95,7 @@ STATE_GUJARAT = {
     arable_land = 165
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_opium_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_logging_camp = 8
+        building_logging_camp = 10
         building_fishing_wharf = 16
     }
     resource = {
@@ -116,7 +116,7 @@ STATE_CENTRAL_INDIA = {
     arable_land = 195
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_opium_plantation building_banana_plantation }
     capped_resources = {
-        building_logging_camp = 33
+        building_logging_camp = 40
     }
 }
 STATE_KASHMIR = {
@@ -133,7 +133,7 @@ STATE_KASHMIR = {
     arable_resources = { "building_vineyard" "building_millet_farm" "building_livestock_ranch" "building_silk_plantation" "building_opium_plantation" }
     capped_resources = {
         building_coal_mine = 12
-        building_logging_camp = 14
+        building_logging_camp = 33
     }
 }
 STATE_PUNJAB = {
@@ -150,7 +150,7 @@ STATE_PUNJAB = {
     arable_land = 810
     arable_resources = { building_vineyard building_wheat_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation }
     capped_resources = {
-        building_logging_camp = 12
+        building_logging_camp = 20
     }
 }
 STATE_NAGPUR = {
@@ -205,9 +205,9 @@ STATE_SINDH = {
     arable_land = 110
     arable_resources = { building_wheat_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_opium_plantation building_sugar_plantation }
     capped_resources = {
-        building_coal_mine = 5
+        building_coal_mine = 10
         building_sulfur_mine = 40
-        building_fishing_wharf = 6
+        building_fishing_wharf = 10
     }
     naval_exit_id = 3048
 }
@@ -241,12 +241,12 @@ STATE_CEYLON = {
     arable_land = 60
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_logging_camp = 12
+        building_logging_camp = 20
         building_fishing_wharf = 13
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 12
+        undiscovered_amount = 30
     }
     naval_exit_id = 3049
 }
@@ -300,8 +300,8 @@ STATE_CIRCARS = {
     arable_resources = { building_rice_farm building_silk_plantation building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
         building_coal_mine = 40
-        building_logging_camp = 12
-        building_iron_mine = 21
+        building_logging_camp = 20
+        building_iron_mine = 33
         building_fishing_wharf = 18
     }
     naval_exit_id = 3050
@@ -321,7 +321,7 @@ STATE_MYSORE = {
     arable_resources = { building_rice_farm building_silk_plantation building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
         building_iron_mine = 24
-        building_logging_camp = 14
+        building_logging_camp = 30
         building_fishing_wharf = 5
         building_coal_mine = 3
         building_gold_mine = 4
@@ -342,7 +342,7 @@ STATE_TRAVANCORE = {
     arable_land = 110
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_logging_camp = 12
+        building_logging_camp = 20
         building_fishing_wharf = 10
     }
     naval_exit_id = 3049
@@ -380,8 +380,8 @@ STATE_HYDERABAD = {
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_silk_plantation building_cotton_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
         building_iron_mine = 5
-        building_coal_mine = 20
-        building_logging_camp = 13
+        building_coal_mine = 30
+        building_logging_camp = 20
     }
 }
 STATE_BOMBAY = {
@@ -397,7 +397,7 @@ STATE_BOMBAY = {
     arable_land = 440
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_silk_plantation building_cotton_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_iron_mine = 10
+        building_iron_mine = 30
         building_logging_camp = 27
         building_fishing_wharf = 12
     }
