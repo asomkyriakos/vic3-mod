@@ -1,4 +1,4 @@
-﻿STATE_MALAYA = {
+STATE_MALAYA = {
     id = 540
     subsistence_building = building_subsistence_rice_farm
     provinces = { x0080B0 x08673B x23578B x374A68 x660411 x66170B x6CFA94 x76546D x78EF92 x8000B0 x8080B0 x80C0B0 x8E3305 x9E6CEE xA060D0 xAA2287 xAF3737 xB6B53D xBE9208 xC00130 xC84C4C xCAB9F2 xCF3E8D xD8E596 xE87C53 xF9F87A xFB4ADA xFCBAFC }
@@ -7,17 +7,17 @@
     farm = x76546D
     mine = x08673B
     wood = xCAB9F2
-    arable_land = 35
+    arable_land = 50
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_tea_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
         building_coal_mine = 32
         building_lead_mine = 24
-        building_logging_camp = 17
+        building_logging_camp = 33
         building_fishing_wharf = 10
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 40
+        undiscovered_amount = 60
     }
     naval_exit_id = 3052
 }
@@ -35,19 +35,19 @@ STATE_NORTH_BORNEO = {
     arable_land = 20
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_banana_plantation }
     capped_resources = {
-        building_iron_mine = 24
+        building_iron_mine = 30
         building_sulfur_mine = 36
-        building_logging_camp = 19
+        building_logging_camp = 30
         building_fishing_wharf = 8
     }
     resource = {
         type = building_gold_field
         depleted_type = building_gold_mine
-        undiscovered_amount = 8
+        undiscovered_amount = 16
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 16
+        undiscovered_amount = 25
     }
     naval_exit_id = 3055
 }
@@ -63,7 +63,7 @@ STATE_WEST_BORNEO = {
     farm = x445D59
     mine = x1C7417
     wood = x6D4CDF
-    arable_land = 50
+    arable_land = 70
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_banana_plantation }
     capped_resources = {
         building_lead_mine = 30
@@ -78,7 +78,7 @@ STATE_WEST_BORNEO = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 12
+        undiscovered_amount = 20
     }
     naval_exit_id = 3052
 }
@@ -93,7 +93,7 @@ STATE_EAST_BORNEO = {
     farm = xCC69E2
     mine = xAC440F
     wood = xF6BB4E
-    arable_land = 40
+    arable_land = 60
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_banana_plantation }
     capped_resources = {
         building_coal_mine = 28
@@ -106,7 +106,7 @@ STATE_EAST_BORNEO = {
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 40
+        undiscovered_amount = 50
     }
     naval_exit_id = 3125
 }
@@ -121,21 +121,21 @@ STATE_WEST_JAVA = {
     farm = x975BCA
     mine = x5CC6B6
     wood = xA0DFEF
-    arable_land = 110
+    arable_land = 130
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_coal_mine = 20
-        building_sulfur_mine = 32
-        building_logging_camp = 8
-        building_fishing_wharf = 11
+        building_coal_mine = 30
+        building_sulfur_mine = 40
+        building_logging_camp = 20
+        building_fishing_wharf = 40
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 12
+        undiscovered_amount = 33
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 10
+        undiscovered_amount = 20
     }
     naval_exit_id = 3052
 }
@@ -149,20 +149,20 @@ STATE_EAST_JAVA = {
     farm = xD91A27
     mine = xEF70EC
     wood = xC226AF
-    arable_land = 60
+    arable_land = 100
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_sulfur_mine = 40
-        building_logging_camp = 7
+        building_sulfur_mine = 55
+        building_logging_camp = 20
         building_fishing_wharf = 8
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 10
+        undiscovered_amount = 20
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 12
+        undiscovered_amount = 30
     }
     naval_exit_id = 3052
 }
@@ -176,16 +176,16 @@ STATE_CENTRAL_JAVA = {
     farm = x62742E
     mine = x727A46
     wood = x143969
-    arable_land = 80
+    arable_land = 110
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
         building_sulfur_mine = 32
-        building_logging_camp = 6
+        building_logging_camp = 20
         building_fishing_wharf = 4
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 8
+        undiscovered_amount = 20
     }
     naval_exit_id = 3052
 }
@@ -199,17 +199,17 @@ STATE_NORTH_SUMATRA = {
     farm = x87F7B6
     mine = x8B7A14
     wood = x339E85
-    arable_land = 60
+    arable_land = 100
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_coal_mine = 40
+        building_coal_mine = 50
         building_sulfur_mine = 48
-        building_logging_camp = 28
+        building_logging_camp = 35
         building_fishing_wharf = 13
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 28
+        undiscovered_amount = 40
     }
     naval_exit_id = 3120
 }
@@ -222,12 +222,12 @@ STATE_SOUTH_SUMATRA = {
     farm = x27FD1C
     mine = x0D0BEB
     wood = xDBE794
-    arable_land = 40
+    arable_land = 50
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_coal_mine = 40
-        building_sulfur_mine = 48
-        building_logging_camp = 28
+        building_coal_mine = 55
+        building_sulfur_mine = 65
+        building_logging_camp = 33
         building_fishing_wharf = 13
     }
     resource = {
@@ -236,7 +236,7 @@ STATE_SOUTH_SUMATRA = {
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 10
+        undiscovered_amount = 20
     }
     naval_exit_id = 3120
 }
@@ -249,7 +249,7 @@ STATE_ACEH = {
     farm = x9A7E0B
     mine = xEB815E
     wood = x07B7F0
-    arable_land = 40
+    arable_land = 55
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
         building_iron_mine = 15
@@ -259,11 +259,11 @@ STATE_ACEH = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 18
+        undiscovered_amount = 33
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 10
+        undiscovered_amount = 20
     }
     naval_exit_id = 3051
 }
@@ -325,16 +325,16 @@ STATE_CELEBES = {
     farm = x63E362
     mine = x5585BD
     wood = xF0B767
-    arable_land = 40
+    arable_land = 50
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_banana_plantation }
     capped_resources = {
-        building_iron_mine = 27
-        building_logging_camp = 14
+        building_iron_mine = 33
+        building_logging_camp = 33
         building_fishing_wharf = 4
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 4
+        undiscovered_amount = 10
     }
     naval_exit_id = 3125
 }
@@ -348,18 +348,18 @@ STATE_EASTERN_NEW_GUINEA = {
     farm = xAB408F
     mine = x26A798
     wood = x9ACD2A
-    arable_land = 40
+    arable_land = 55
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_dye_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_iron_mine = 24
+        building_iron_mine = 33
         building_sulfur_mine = 32
-        building_logging_camp = 16
+        building_logging_camp = 33
         building_fishing_wharf = 10
         building_whaling_station = 2
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 12
+        undiscovered_amount = 33
     }
     resource = {
         type = "building_oil_rig"
@@ -377,17 +377,17 @@ STATE_SUNDA_ISLANDS = {
     farm = x100090
     mine = x900090
     wood = x908090
-    arable_land = 60
+    arable_land = 100
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_banana_plantation }
     capped_resources = {
-        building_iron_mine = 24
-        building_sulfur_mine = 40
-        building_logging_camp = 17
+        building_iron_mine = 33
+        building_sulfur_mine = 55
+        building_logging_camp = 34
         building_fishing_wharf = 10
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 8
+        undiscovered_amount = 16
     }
     naval_exit_id = 3052
 }
@@ -401,10 +401,10 @@ STATE_MINDANAO = {
     farm = xBC5002
     mine = x4C67A7
     wood = xCAFE73
-    arable_land = 40
+    arable_land = 55
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_banana_plantation }
     capped_resources = {
-        building_iron_mine = 36
+        building_iron_mine = 55
         building_logging_camp = 14
         building_fishing_wharf = 8
     }
@@ -424,11 +424,11 @@ STATE_LUZON = {
     farm = x31F0E0
     mine = x33B5F8
     wood = xEB310E
-    arable_land = 80
+    arable_land = 110
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_iron_mine = 24
-        building_logging_camp = 20
+        building_iron_mine = 33
+        building_logging_camp = 33
         building_fishing_wharf = 12
     }
     resource = {
@@ -446,17 +446,17 @@ STATE_VISAYAS = {
     farm = x90F80A
     mine = x46EA60
     wood = x05FD19
-    arable_land = 60
+    arable_land = 100
     arable_resources = { building_rice_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tea_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_iron_mine = 30
-        building_logging_camp = 18
+        building_iron_mine = 40
+        building_logging_camp = 30
         building_fishing_wharf = 10
         building_coal_mine = 5
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 4
+        undiscovered_amount = 10
     }
     naval_exit_id = 3055
 }
