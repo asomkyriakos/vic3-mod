@@ -1,4 +1,4 @@
-﻿STATE_ZHENG_HE = {
+STATE_ZHENG_HE = {
     id = 558
     subsistence_building = building_subsistence_farm
     provinces = { x0E3317 x0EA2A3 x26EEF1 x276C93 x3A6A72 x467A72 x4FF662 x5E4B6A x704E84 x740B78 x83B57F x91A2E2 x9453C1 xA39D9A xB15C6D xC1F3AD xC7A584 xC7BC96 xCB67EC xD060D0 xD2EE80 xD65CBB xD74DB9 xDF754A xE8CAF7 xF22CA8 xF4A6F5 xFD1F91 }
@@ -8,14 +8,14 @@
     farm = xE8CAF7
     mine = xD2EE80
     wood = xDF754A
-    arable_land = 120
+    arable_land = 130
     arable_resources = { building_wheat_farm building_livestock_ranch building_cotton_plantation building_tea_plantation building_sugar_plantation building_silk_plantation }
     capped_resources = {
-        building_coal_mine = 40
-        building_logging_camp = 7
-        building_whaling_station = 2
-        building_fishing_wharf = 8
-        building_gold_mine = 4
+        building_coal_mine = 50
+        building_logging_camp = 12
+        building_whaling_station = 4
+        building_fishing_wharf = 10
+        building_gold_mine = 10
     }
     naval_exit_id = 3122
 }
@@ -29,15 +29,15 @@ STATE_QINGSHUI = {
     farm = xCC9C60
     mine = xC04012
     wood = xBE99E0
-    arable_land = 100
+    arable_land = 120
     arable_resources = { building_vineyard building_rice_farm building_livestock_ranch building_cotton_plantation building_tea_plantation building_sugar_plantation }
     capped_resources = {
-        building_sulfur_mine = 12
-        building_logging_camp = 14
-        building_whaling_station = 3
-        building_fishing_wharf = 8
-        building_gold_mine = 3
-        building_coal_mine = 10
+        building_sulfur_mine = 20
+        building_logging_camp = 20
+        building_whaling_station = 4
+        building_fishing_wharf = 10
+        building_gold_mine = 6
+        building_coal_mine = 16
     }
     naval_exit_id = 3122
 }
@@ -51,19 +51,19 @@ STATE_PARLEVAR = {
     farm = xEC439A
     mine = x05B74C
     wood = xBB312B
-    arable_land = 24
+    arable_land = 40
     arable_resources = { building_vineyard building_wheat_farm building_livestock_ranch building_cotton_plantation building_tea_plantation building_sugar_plantation building_opium_plantation }
     capped_resources = {
-        building_iron_mine = 15
-        building_lead_mine = 15
-        building_logging_camp = 8
-        building_whaling_station = 2
-        building_fishing_wharf = 8
+        building_iron_mine = 20
+        building_lead_mine = 20
+        building_logging_camp = 12
+        building_whaling_station = 4
+        building_fishing_wharf = 10
     }
     resource = {
         type = building_gold_field
         depleted_type = building_gold_mine
-        undiscovered_amount = 6
+        undiscovered_amount = 10
     }
     naval_exit_id = 3122
 }
@@ -76,14 +76,14 @@ STATE_TAITUNG = {
     farm = x799B34
     mine = x73D224
     wood = x3ADE63
-    arable_land = 35
+    arable_land = 50
     arable_resources = { building_wheat_farm building_livestock_ranch }
     capped_resources = {
-        building_iron_mine = 36
+        building_iron_mine = 40
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 12
+        undiscovered_amount = 20
     }
 }
 STATE_WEIZHOU = {
@@ -96,13 +96,13 @@ STATE_WEIZHOU = {
     farm = x047B8C
     mine = x076BF7
     wood = x620ED9
-    arable_land = 80
+    arable_land = 90
     arable_resources = { building_wheat_farm building_livestock_ranch building_cotton_plantation building_tea_plantation building_sugar_plantation }
     capped_resources = {
-        building_iron_mine = 30
-        building_logging_camp = 4
-        building_fishing_wharf = 6
-        building_whaling_station = 2
+        building_iron_mine = 38
+        building_logging_camp = 8
+        building_fishing_wharf = 10
+        building_whaling_station = 4
     }
     naval_exit_id = 3122
 }
@@ -116,14 +116,14 @@ STATE_YONGJIA = {
     farm = xD471D4
     mine = x45A37A
     wood = xC6D0A0
-    arable_land = 65
+    arable_land = 70
     arable_resources = { building_vineyard building_wheat_farm building_livestock_ranch }
     capped_resources = {
-        building_iron_mine = 30
-        building_lead_mine = 16
-        building_sulfur_mine = 30
-        building_logging_camp = 3
-        building_whaling_station = 2
+        building_iron_mine = 40
+        building_lead_mine = 22
+        building_sulfur_mine = 36
+        building_logging_camp = 8
+        building_whaling_station = 4
         building_fishing_wharf = 4
     }
     naval_exit_id = 3121
@@ -136,15 +136,15 @@ STATE_PITJANTJAJARA = {
     traits = { state_trait_australian_desert }
     city = xFE7A75
     farm = x943C0A
-    arable_land = 10
+    arable_land = 30
     arable_resources = { building_livestock_ranch }
     resource = {
         type = building_gold_field
         depleted_type = building_gold_mine
-        undiscovered_amount = 8
+        undiscovered_amount = 10
     }
     capped_resources = {
-        building_iron_mine = 15
+        building_iron_mine = 20
     }
 }
 STATE_COOMALONG = {
@@ -157,11 +157,11 @@ STATE_COOMALONG = {
     port = x79C4FB
     farm = xE70D7F
     mine = x8D829F
-    arable_land = 24
+    arable_land = 30
     arable_resources = { building_livestock_ranch }
     capped_resources = {
-        building_iron_mine = 30
-        building_fishing_wharf = 4
+        building_iron_mine = 40
+        building_fishing_wharf = 8
     }
     naval_exit_id = 3123
 }
@@ -176,14 +176,14 @@ STATE_WENCHENG = {
     farm = x0E58D6
     mine = xB2ABD6
     wood = xE16635
-    arable_land = 30
+    arable_land = 40
     arable_resources = { building_wheat_farm building_rice_farm building_livestock_ranch building_cotton_plantation building_tea_plantation building_sugar_plantation }
     capped_resources = {
-        building_lead_mine = 45
-        building_logging_camp = 3
-        building_whaling_station = 2
+        building_lead_mine = 50
+        building_logging_camp = 4
+        building_whaling_station = 4
         building_fishing_wharf = 6
-        building_gold_mine = 4
+        building_gold_mine = 8
     }
     naval_exit_id = 3124
 }
@@ -198,17 +198,17 @@ STATE_OODNATTA = {
     farm = xC53983
     mine = x6F472E
     wood = xBAA4BE
-    arable_land = 20
+    arable_land = 30
     arable_resources = { building_livestock_ranch }
     capped_resources = {
-        building_fishing_wharf = 10
-        building_iron_mine = 10
+        building_fishing_wharf = 20
+        building_iron_mine = 20
 
     }
     resource = {
         type = building_gold_field
         depleted_type = building_gold_mine
-        undiscovered_amount = 7
+        undiscovered_amount = 10
     }
     naval_exit_id = 3121
 }
@@ -223,19 +223,19 @@ STATE_NOONGAR = {
     farm = x98FA26
     mine = x87D86F
     wood = x74551C
-    arable_land = 58
+    arable_land = 60
     arable_resources = { building_vineyard building_wheat_farm building_livestock_ranch }
     capped_resources = {
-        building_coal_mine = 20
-        building_iron_mine = 30
-        building_logging_camp = 4
+        building_coal_mine = 30
+        building_iron_mine = 36
+        building_logging_camp = 8
         building_whaling_station = 2
         building_fishing_wharf = 4
     }
     resource = {
         type = building_gold_field
         depleted_type = building_gold_mine
-        undiscovered_amount = 8
+        undiscovered_amount = 10
     }
     naval_exit_id = 3123
 }
@@ -250,13 +250,13 @@ STATE_YOLNGU = {
     farm = xF943B8
     mine = x3F7FA7
     wood = xA4B8B3
-    arable_land = 25
+    arable_land = 40
     arable_resources = { building_livestock_ranch building_cotton_plantation }
     capped_resources = {
-        building_logging_camp = 5
+        building_logging_camp = 8
         building_whaling_station = 2
         building_fishing_wharf = 7
-        building_iron_mine = 10
+        building_iron_mine = 18
     }
 
     naval_exit_id = 3126
@@ -271,19 +271,19 @@ STATE_MOTU_PARI = {
     farm = xEBB583
     mine = x59DF28
     wood = x0AA01A
-    arable_land = 30
+    arable_land = 40
     arable_resources = { building_vineyard building_wheat_farm building_livestock_ranch }
     capped_resources = {
-        building_coal_mine = 28
+        building_coal_mine = 36
         building_iron_mine = 27
-        building_logging_camp = 11
+        building_logging_camp = 18
         building_whaling_station = 3
         building_fishing_wharf = 8
     }
     resource = {
         type = building_gold_field
         depleted_type = building_gold_mine
-        undiscovered_amount = 4
+        undiscovered_amount = 8
     }
     naval_exit_id = 3122
 }
@@ -297,17 +297,17 @@ STATE_MOTU_TIMU = {
     farm = x6A5DDE
     mine = x733DDF
     wood = x50F19B
-    arable_land = 30
+    arable_land = 40
     arable_resources = { building_vineyard building_wheat_farm building_livestock_ranch }
     capped_resources = {
-        building_logging_camp = 7
+        building_logging_camp = 12
         building_whaling_station = 4
         building_fishing_wharf = 10
     }
     resource = {
         type = building_gold_field
         depleted_type = building_gold_mine
-        undiscovered_amount = 6
+        undiscovered_amount = 10
     }
     naval_exit_id = 3122
 }
@@ -320,14 +320,14 @@ STATE_GUANSHAN = {
     farm = x20201C
     mine = xBEA265
     wood = xB6943C
-    arable_land = 75
+    arable_land = 85
     arable_resources = { building_vineyard building_rice_farm building_livestock_ranch building_cotton_plantation building_tea_plantation building_sugar_plantation }
     capped_resources = {
-        building_sulfur_mine = 12
-        building_logging_camp = 18
+        building_sulfur_mine = 18
+        building_logging_camp = 20
         building_whaling_station = 3
         building_fishing_wharf = 8
-        building_gold_mine = 3
+        building_gold_mine = 8
     }
     naval_exit_id = 3122
 }
@@ -340,14 +340,14 @@ STATE_XINXIANG = {
     farm = xE7D61A
     mine = x234F3B
     wood = x821BC4
-    arable_land = 80
+    arable_land = 90
     arable_resources = { building_vineyard building_wheat_farm building_livestock_ranch building_cotton_plantation building_tea_plantation building_sugar_plantation building_silk_plantation }
     capped_resources = {
-        building_coal_mine = 20
-        building_logging_camp = 12
+        building_coal_mine = 28
+        building_logging_camp = 18
         building_whaling_station = 1
         building_fishing_wharf = 8
-        building_gold_mine = 4
+        building_gold_mine = 8
     }
     naval_exit_id = 3122
 }
@@ -360,14 +360,14 @@ STATE_WEIHUAI = {
     farm = x92DACD
     mine = xC8D2DF
     wood = x6F2868
-    arable_land = 120
+    arable_land = 140
     arable_resources = { building_wheat_farm building_livestock_ranch building_cotton_plantation building_tea_plantation building_sugar_plantation building_silk_plantation }
     capped_resources = {
-        building_coal_mine = 24
-        building_logging_camp = 7
+        building_coal_mine = 30
+        building_logging_camp = 10
         building_whaling_station = 1
         building_fishing_wharf = 8
-        building_gold_mine = 4
+        building_gold_mine = 8
     }
     naval_exit_id = 3122
 }
@@ -383,12 +383,12 @@ STATE_YONGLING = {
     arable_land = 200
     arable_resources = { building_vineyard building_rice_farm building_livestock_ranch }
     capped_resources = {
-        building_iron_mine = 20
-        building_lead_mine = 20
-        building_sulfur_mine = 30
-        building_logging_camp = 8
+        building_iron_mine = 30
+        building_lead_mine = 26
+        building_sulfur_mine = 38
+        building_logging_camp = 12
         building_fishing_wharf = 2
-        building_gold_mine = 1
+        building_gold_mine = 4
     }
     naval_exit_id = 3122
 }
@@ -400,14 +400,14 @@ STATE_JINZHOU = {
     farm = x19ADC5
     mine = xC621A4
     wood = x50DF50
-    arable_land = 65
+    arable_land = 75
     arable_resources = { building_wheat_farm building_livestock_ranch building_cotton_plantation building_tea_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_iron_mine = 25
-        building_logging_camp = 6
+        building_iron_mine = 30
+        building_logging_camp = 10
         building_fishing_wharf = 6
         building_whaling_station = 2
-        building_gold_mine = 2
+        building_gold_mine = 6
     }
     naval_exit_id = 3122
 }
