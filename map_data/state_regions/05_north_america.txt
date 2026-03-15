@@ -1,4 +1,4 @@
-﻿STATE_HAWAIIAN_ISLANDS = {
+STATE_HAWAIIAN_ISLANDS = {
     id = 309
     subsistence_building = building_subsistence_fishing_village
     provinces = { x492B26 x6090C0 xB5403E }
@@ -187,7 +187,7 @@ STATE_CHAOUENONS = {
     arable_land = 180
     arable_resources = { building_vineyard building_maize_farm building_livestock_ranch building_cotton_plantation building_tobacco_plantation }
     capped_resources = {
-        building_coal_mine = 140
+        building_coal_mine = 100
         building_iron_mine = 33
         building_logging_camp = 17
     }
