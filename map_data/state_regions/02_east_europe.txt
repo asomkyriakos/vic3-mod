@@ -1,4 +1,4 @@
-﻿STATE_ESTONIA = {
+STATE_ESTONIA = {
     id = 151
     subsistence_building = building_subsistence_farm
     provinces = { x0121A0 x01A021 x1D7342 x25CC83 x297D54 x5C8F48 x6040E0 x6D20F8 x6D38BF x7AAA5C x80A021 x8487D5 x9884F2 xA69127 xB9FF4E xBCF2BB xBF6060 xD29762 xD5B5D2 xD737E2 xE87B15 xFCA6F4 }
@@ -78,7 +78,7 @@ STATE_TRANSDANUBIA = {
     arable_land = 120
     arable_resources = { building_vineyard building_wheat_farm building_livestock_ranch }
     capped_resources = {
-        building_coal_mine = 84
+        building_coal_mine = 70
         building_logging_camp = 7
     }
 }
@@ -111,7 +111,7 @@ STATE_RUTHENIA = {
     arable_land = 70
     arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_vineyard" }
     capped_resources = {
-        building_coal_mine = 92
+        building_coal_mine = 80
         building_lead_mine = 33
         building_logging_camp = 15
     }
@@ -210,7 +210,7 @@ STATE_WALLACHIA = {
     arable_land = 60
     arable_resources = { building_vineyard building_wheat_farm building_livestock_ranch building_cotton_plantation }
     capped_resources = {
-        building_coal_mine = 68
+        building_coal_mine = 60
         building_iron_mine = 21
         building_logging_camp = 4
     }
@@ -302,7 +302,7 @@ STATE_DVG_LESSER_POLAND = {
     arable_land = 80
     arable_resources = { building_rye_farm building_livestock_ranch }
     capped_resources = {
-        building_coal_mine = 84
+        building_coal_mine = 80
         building_lead_mine = 60
         building_logging_camp = 13
     }
@@ -373,7 +373,7 @@ STATE_WEST_GALICIA = {
     arable_land = 120
     arable_resources = { building_vineyard building_rye_farm building_livestock_ranch }
     capped_resources = {
-        building_coal_mine = 140
+        building_coal_mine = 100
         building_iron_mine = 33
         building_logging_camp = 17
     }
@@ -393,7 +393,7 @@ STATE_EAST_GALICIA = {
     arable_land = 135
     arable_resources = { building_vineyard building_wheat_farm building_livestock_ranch }
     capped_resources = {
-        building_coal_mine = 92
+        building_coal_mine = 80
         building_logging_camp = 9
     }
     resource = {
@@ -477,7 +477,7 @@ STATE_DVG_VOLHYNIA = {
     arable_land = 130
     arable_resources = { building_wheat_farm building_livestock_ranch }
     capped_resources = {
-        building_coal_mine = 68
+        building_coal_mine = 60
         building_logging_camp = 25
     }
 }
