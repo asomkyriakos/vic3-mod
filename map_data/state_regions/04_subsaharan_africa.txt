@@ -1,4 +1,4 @@
-﻿STATE_IVORY_COAST = {
+STATE_IVORY_COAST = {
     id = 204
     subsistence_building = building_subsistence_farm
     provinces = { x02F6E1 x20BFCF x21F036 x2341DB x2D0E53 x2E8BB3 x2F7E3F x422883 x5313B3 x60C050 x68E1B3 x6ADBC0 x6D828F x76636D x76D5EA x7D3EA7 x7FFBEA x858A67 x8688F2 x882B0E x8E3880 x8F42EF x913076 x93D980 x9D72BC x9F40D0 xA0BF50 xA0BFCF xA6C81C xB25210 xB75AF3 xBD503A xC70D90 xD7CBF8 xDBCD88 xE04050 xE0C050 xE847EF xF3164C xF48315 xF670EF xFA2C26 }
@@ -16,7 +16,7 @@
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 28
+        undiscovered_amount = 40
     }
     resource = {
         type = "building_oil_rig"
@@ -36,12 +36,12 @@ STATE_WINDWARD_COAST = {
     arable_land = 70
     arable_resources = { building_millet_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
-        building_iron_mine = 24
+        building_iron_mine = 30
         building_logging_camp = 15
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 16
+        undiscovered_amount = 20
     }
     naval_exit_id = 3091
 }
@@ -64,7 +64,7 @@ STATE_SENEGAL = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 16
+        undiscovered_amount = 30
     }
     naval_exit_id = 3088
 }
@@ -86,7 +86,7 @@ STATE_GAMBIA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 16
+        undiscovered_amount = 25
     }
     naval_exit_id = 3088
 }
@@ -110,7 +110,7 @@ STATE_SIERRA_LEONE = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 28
+        undiscovered_amount = 35
     }
     naval_exit_id = 3088
 }
@@ -126,11 +126,11 @@ STATE_VOLTA = {
     arable_land = 100
     arable_resources = { building_millet_farm building_livestock_ranch building_cotton_plantation building_dye_plantation building_tobacco_plantation building_sugar_plantation }
     capped_resources = {
-        building_logging_camp = 4
+        building_logging_camp = 10
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 24
+        undiscovered_amount = 30
     }
 }
 STATE_LIBERIA = {
@@ -153,7 +153,7 @@ STATE_LIBERIA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 20
+        undiscovered_amount = 30
     }
     naval_exit_id = 3088
 }
@@ -173,11 +173,11 @@ STATE_HAUSALAND = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 20
+        undiscovered_amount = 30
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 10
+        undiscovered_amount = 20
     }
 }
 STATE_BENIN = {
@@ -217,7 +217,7 @@ STATE_YORUBA_STATES = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 24
+        undiscovered_amount = 35
     }
     naval_exit_id = 3091
 }
@@ -239,7 +239,7 @@ STATE_NIGER_DELTA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 16
+        undiscovered_amount = 30
     }
     naval_exit_id = 3091
 }
@@ -260,7 +260,7 @@ STATE_OUTER_HAUSALAND = {
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 5
+        undiscovered_amount = 10
     }
 }
 STATE_BORNU = {
@@ -296,7 +296,7 @@ STATE_NIGERIA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 24
+        undiscovered_amount = 35
     }
 }
 STATE_EAST_HAUSALAND = {
@@ -316,7 +316,7 @@ STATE_EAST_HAUSALAND = {
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 5
+        undiscovered_amount = 10
     }
 }
 STATE_GUINEA = {
@@ -337,7 +337,7 @@ STATE_GUINEA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 22
+        undiscovered_amount = 35
     }
     naval_exit_id = 3088
 }
@@ -359,7 +359,7 @@ STATE_GHANA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 22
+        undiscovered_amount = 30
     }
     naval_exit_id = 3091
 }
@@ -372,7 +372,7 @@ STATE_TOGO = {
     farm = xEC0AF9
     mine = x02DAF6
     wood = xE8CC9C
-    arable_land = 70
+    arable_land = 80
     arable_resources = { building_millet_farm building_livestock_ranch building_coffee_plantation building_cotton_plantation building_dye_plantation building_tobacco_plantation building_sugar_plantation building_banana_plantation }
     capped_resources = {
         building_logging_camp = 10
@@ -380,7 +380,7 @@ STATE_TOGO = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 20
+        undiscovered_amount = 30
     }
     naval_exit_id = 3091
 }
@@ -402,7 +402,7 @@ STATE_DAHOMEY = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 22
+        undiscovered_amount = 30
     }
     naval_exit_id = 3091
 }
@@ -427,7 +427,7 @@ STATE_LINDI = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 16
+        undiscovered_amount = 30
     }
     naval_exit_id = 3107
 }
@@ -450,7 +450,7 @@ STATE_ZANZIBAR = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 16
+        undiscovered_amount = 30
     }
     naval_exit_id = 3107
 }
@@ -473,7 +473,7 @@ STATE_TANGANYIKA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 28
+        undiscovered_amount = 35
     }
 }
 STATE_KENYA = {
@@ -495,7 +495,7 @@ STATE_KENYA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 16
+        undiscovered_amount = 30
     }
     naval_exit_id = 3107
 }
@@ -517,7 +517,7 @@ STATE_RIFT_VALLEY = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 16
+        undiscovered_amount = 30
     }
 }
 STATE_OROMIA = {
@@ -537,11 +537,11 @@ STATE_OROMIA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 28
+        undiscovered_amount = 35
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 10
+        undiscovered_amount = 20
     }
 }
 STATE_AMHARA = {
@@ -562,7 +562,7 @@ STATE_AMHARA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 26
+        undiscovered_amount = 35
     }
 }
 STATE_GONDER = {
@@ -581,7 +581,7 @@ STATE_GONDER = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 22
+        undiscovered_amount = 35
     }
 }
 STATE_KAZEMBE = {
@@ -601,7 +601,7 @@ STATE_KAZEMBE = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 22
+        undiscovered_amount = 35
     }
 }
 STATE_SOMALILAND = {
@@ -643,7 +643,7 @@ STATE_SOUTH_MADAGASCAR = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 16
+        undiscovered_amount = 30
     }
     naval_exit_id = 3107
 }
@@ -666,7 +666,7 @@ STATE_NORTH_MADAGASCAR = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 16
+        undiscovered_amount = 30
     }
     naval_exit_id = 3107
 }
@@ -687,7 +687,7 @@ STATE_UGANDA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 28
+        undiscovered_amount = 35
     }
 }
 STATE_EQUATORIA = {
@@ -706,7 +706,7 @@ STATE_EQUATORIA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 18
+        undiscovered_amount = 35
     }
 }
 STATE_MOCAMBIQUE = {
@@ -727,7 +727,7 @@ STATE_MOCAMBIQUE = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 28
+        undiscovered_amount = 35
     }
     naval_exit_id = 3107
 }
@@ -789,7 +789,7 @@ STATE_SOUTH_CAMEROON = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 24
+        undiscovered_amount = 30
     }
     naval_exit_id = 3091
 }
@@ -810,7 +810,7 @@ STATE_UBANGI_SHARI = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 26
+        undiscovered_amount = 30
     }
 }
 STATE_CONGO = {
@@ -832,7 +832,7 @@ STATE_CONGO = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 60
+        undiscovered_amount = 80
     }
     resource = {
         type = "building_oil_rig"
@@ -857,7 +857,7 @@ STATE_CONGO_ORIENTALE = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 52
+        undiscovered_amount = 65
     }
 }
 STATE_KASAI = {
@@ -877,7 +877,7 @@ STATE_KASAI = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 22
+        undiscovered_amount = 30
     }
 }
 STATE_BAS_CONGO = {
@@ -899,7 +899,7 @@ STATE_BAS_CONGO = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 36
+        undiscovered_amount = 45
     }
     naval_exit_id = 3104
 }
@@ -919,7 +919,7 @@ STATE_EQUATEUR = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 38
+        undiscovered_amount = 50
     }
 }
 STATE_NORTH_ANGOLA = {
@@ -940,7 +940,7 @@ STATE_NORTH_ANGOLA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 22
+        undiscovered_amount = 30
     }
     naval_exit_id = 3104
 }
@@ -962,7 +962,7 @@ STATE_SOUTH_ANGOLA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 14
+        undiscovered_amount = 25
     }
     naval_exit_id = 3104
 }
@@ -984,7 +984,7 @@ STATE_EAST_ANGOLA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 16
+        undiscovered_amount = 20
     }
 }
 STATE_KATANGA = {
@@ -1004,7 +1004,7 @@ STATE_KATANGA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 20
+        undiscovered_amount = 30
     }
 }
 STATE_GABON = {
@@ -1025,11 +1025,11 @@ STATE_GABON = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 24
+        undiscovered_amount = 35
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 5
+        undiscovered_amount = 10
     }
     naval_exit_id = 3091
 }
@@ -1051,7 +1051,7 @@ STATE_ZAMBIA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 20
+        undiscovered_amount = 30
     }
 }
 STATE_ZAMBEZIA = {
@@ -1073,7 +1073,7 @@ STATE_ZAMBEZIA = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 22
+        undiscovered_amount = 30
     }
     naval_exit_id = 3107
 }
@@ -1094,7 +1094,7 @@ STATE_ZAMBEZI = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 16
+        undiscovered_amount = 30
     }
 }
 STATE_NAMAQUALAND = {
@@ -1254,7 +1254,7 @@ STATE_NORTHERN_CAPE = {
     resource = {
         type = building_gold_field
         depleted_type = building_gold_mine
-        undiscovered_amount = 6
+        undiscovered_amount = 10
     }
     naval_exit_id = 3106
 }
@@ -1293,7 +1293,7 @@ STATE_LOURENCO_MARQUES = {
     }
     resource = {
         type = building_rubber_plantation
-        undiscovered_amount = 8
+        undiscovered_amount = 16
     }
     naval_exit_id = 3106
 }
@@ -1347,7 +1347,7 @@ STATE_ADAL = {
     }
     resource = {
         type = "building_oil_rig"
-        undiscovered_amount = 10
+        undiscovered_amount = 20
     }
     naval_exit_id = 3018
 }
@@ -1369,7 +1369,7 @@ STATE_TRANS_ORANJE = {
     resource = {
         type = building_gold_field
         depleted_type = building_gold_mine
-        undiscovered_amount = 6
+        undiscovered_amount = 10
     }
 }
 STATE_NOORDLAND = {
